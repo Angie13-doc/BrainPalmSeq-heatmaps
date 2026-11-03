@@ -1,0 +1,521 @@
+Gene,ClusterName,Region,Class,Region2,Probable_location,Neurotransmitter,MarkerGenes,Description,Expression,SourceFile
+Zdhhc1,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,18.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc2,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,43.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc3,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,6.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc4,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,20.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc5,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,19.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc6,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,21.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc7,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,19.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc8,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,16.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc9,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,30.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc11,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc12,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,8.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc13,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,17.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc14,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,21.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc15,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,5.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc16,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,14.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc17,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,40.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc18,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,10.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc19,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc20,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,18.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc21,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,12.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc22,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,36.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc23,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,8.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc24,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,5.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc25,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd4,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,64.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd6,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,51.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd10,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,15.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd11,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,43.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd12,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,184.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd13,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,16.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd16a,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,64.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lypla1,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,31.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lylpa2,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,64.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Ppt1,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,91.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17a,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,137.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17b,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,32.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17c,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,27.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,110.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7b,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,78.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Selenok,Amygd | Amygdala,Amygdala,Amygdala,,Brain Region: Amygdala; Region ID: Amygd,,,Brain Region: Amygdala; Region ID: Amygd,99.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc1,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,15.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc2,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,40.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc3,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,8.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc4,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,22.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc5,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,22.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc6,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,20.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc7,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,18.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc8,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,11.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc9,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,48.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc11,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc12,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,9.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc13,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,18.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc14,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,23.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc15,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,5.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc16,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,13.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc17,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,48.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc18,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,10.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc19,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc20,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,26.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc21,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,12.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc22,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,18.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc23,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,9.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc24,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,4.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc25,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd4,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,115.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd6,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,46.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd10,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,19.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd11,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,38.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd12,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,192.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd13,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,19.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd16a,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,53.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lypla1,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,30.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lylpa2,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,57.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Ppt1,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,129.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17a,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,102.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17b,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,41.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17c,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,31.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,156.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7b,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,54.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Selenok,BG | Basal ganglia,Basal ganglia,Basal ganglia,,Brain Region: Basal ganglia; Region ID: BG,,,Brain Region: Basal ganglia; Region ID: BG,128.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc1,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,20.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc2,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,41.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc3,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,4.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc4,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,19.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc5,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,24.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc6,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,23.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc7,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,11.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc8,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,5.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc9,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,24.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc11,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc12,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,4.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc13,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,24.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc14,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,25.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc15,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,1.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc16,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,22.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc17,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,59.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc18,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,8.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc19,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc20,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,25.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc21,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,14.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc22,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,3.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc23,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,1.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc24,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,6.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc25,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd4,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,87.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd6,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,57.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd10,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,29.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd11,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,42.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd12,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,162.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd13,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,22.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd16a,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,236.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lypla1,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,76.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lylpa2,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,55.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Ppt1,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,140.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17a,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,117.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17b,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,73.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17c,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,15.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,201.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7b,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,84.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Selenok,CB | Cerebellum,Cerebellum,Cerebellum,,Brain Region: Cerebellum; Region ID: CB,,,Brain Region: Cerebellum; Region ID: CB,156.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc1,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,20.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc2,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,52.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc3,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,8.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc4,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,17.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc5,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,24.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc6,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,21.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc7,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,17.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc8,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,19.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc9,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,47.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc11,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc12,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,8.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc13,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,18.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc14,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,17.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc15,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,4.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc16,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,14.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc17,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,47.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc18,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,9.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc19,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc20,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,15.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc21,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,14.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc22,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,36.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc23,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,10.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc24,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,5.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc25,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd4,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,76.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd6,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,56.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd10,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,15.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd11,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,44.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd12,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,209.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd13,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,19.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd16a,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,64.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lypla1,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,40.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lylpa2,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,61.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Ppt1,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,99.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17a,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,148.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17b,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,36.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17c,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,28.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,132.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7b,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,116.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Selenok,Ctx | Cerebral cortex,Cerebral cortex,Cerebral cortex,,Brain Region: Cerebral cortex; Region ID: Ctx,,,Brain Region: Cerebral cortex; Region ID: Ctx,118.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc1,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,11.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc2,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,27.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc3,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,4.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc4,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,23.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc5,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,11.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc6,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,15.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc7,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,13.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc8,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,7.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc9,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,109.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc11,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc12,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,12.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc13,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,10.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc14,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,17.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc15,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,3.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc16,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,12.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc17,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,38.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc18,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,6.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc19,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc20,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,20.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc21,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,7.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc22,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,13.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc23,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,3.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc24,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,5.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc25,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd4,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,195.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd6,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,24.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd10,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,10.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd11,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,29.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd12,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,137.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd13,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,11.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd16a,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,40.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lypla1,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,21.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lylpa2,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,42.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Ppt1,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,84.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17a,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,105.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17b,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,56.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17c,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,22.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,372.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7b,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,39.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Selenok,CC | Corpus callosum,Corpus callosum,Corpus callosum,,Brain Region: Corpus callosum; Region ID: CC,,,Brain Region: Corpus callosum; Region ID: CC,158.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc1,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,17.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc2,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,49.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc3,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,8.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc4,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,21.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc5,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,25.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc6,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,23.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc7,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,17.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc8,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,13.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc9,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,43.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc11,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc12,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,8.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc13,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,20.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc14,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,20.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc15,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,5.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc16,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,14.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc17,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,47.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc18,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,8.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc19,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc20,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,22.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc21,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,15.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc22,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,37.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc23,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,22.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc24,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,5.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc25,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd4,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,89.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd6,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,65.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd10,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,16.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd11,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,42.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd12,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,219.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd13,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,22.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd16a,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,57.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lypla1,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,38.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lylpa2,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,62.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Ppt1,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,103.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17a,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,108.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17b,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,45.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17c,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,46.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,141.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7b,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,88.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Selenok,Hipp | Hippocampal formation,Hippocampal formation,Hippocampal formation,,Brain Region: Hippocampal formation; Region ID: Hipp,,,Brain Region: Hippocampal formation; Region ID: Hipp,112.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc1,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,14.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc2,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,57.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc3,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,9.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc4,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,22.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc5,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,27.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc6,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,23.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc7,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,16.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc8,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,9.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc9,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,41.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc11,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc12,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,5.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc13,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,14.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc14,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,12.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc15,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,7.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc16,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,9.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc17,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,53.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc18,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,7.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc19,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc20,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,43.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc21,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,16.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc22,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,34.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc23,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,4.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc24,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,3.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc25,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd4,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,117.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd6,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,30.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd10,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,26.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd11,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,40.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd12,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,167.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd13,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,17.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd16a,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,47.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lypla1,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,35.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lylpa2,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,48.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Ppt1,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,120.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17a,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,48.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17b,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,39.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17c,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,22.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,138.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7b,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,44.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Selenok,Hypo | Hypothalamus,Hypothalamus,Hypothalamus,,Brain Region: Hypothalamus; Region ID: Hypo,,,Brain Region: Hypothalamus; Region ID: Hypo,119.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc1,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,16.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc2,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,42.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc3,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,8.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc4,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,21.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc5,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,28.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc6,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,27.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc7,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,12.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc8,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,6.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc9,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,54.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc11,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc12,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,4.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc13,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,15.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc14,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,10.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc15,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,5.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc16,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,11.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc17,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,63.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc18,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,7.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc19,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc20,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,48.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc21,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,14.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc22,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,30.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc23,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,1.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc24,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,2.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc25,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd4,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,136.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd6,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,41.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd10,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,29.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd11,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,46.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd12,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,194.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd13,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,17.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd16a,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,50.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lypla1,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,47.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lylpa2,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,40.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Ppt1,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,140.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17a,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,52.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17b,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,53.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17c,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,19.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,200.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7b,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,45.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Selenok,MB | Midbrain,Midbrain,Midbrain,,Brain Region: Midbrain; Region ID: MB,,,Brain Region: Midbrain; Region ID: MB,134.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc1,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,24.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc2,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,54.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc3,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,7.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc4,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,19.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc5,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,30.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc6,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,24.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc7,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,16.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc8,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,10.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc9,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,39.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc11,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc12,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,6.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc13,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,25.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc14,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,10.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc15,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,4.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc16,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,16.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc17,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,57.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc18,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,11.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc19,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc20,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,16.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc21,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,16.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc22,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,9.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc23,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,7.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc24,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,3.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc25,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd4,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,140.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd6,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,51.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd10,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,21.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd11,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,36.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd12,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,172.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd13,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,28.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd16a,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,55.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lypla1,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,73.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lylpa2,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,65.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Ppt1,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,119.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17a,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,66.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17b,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,37.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17c,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,33.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,174.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7b,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,64.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Selenok,OR | Olfactory region,Olfactory region,Olfactory region,,Brain Region: Olfactory region; Region ID: OR,,,Brain Region: Olfactory region; Region ID: OR,126.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc1,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,8.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc2,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,10.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc3,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,1.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc4,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,14.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc5,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,19.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc6,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,12.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc7,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,6.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc8,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,4.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc9,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,5.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc11,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc12,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,8.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc13,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,16.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc14,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,0.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc15,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,2.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc16,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,7.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc17,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,6.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc18,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,2.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc19,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc20,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,16.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc21,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,2.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc22,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,0.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc23,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,6.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc24,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,2.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc25,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd4,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,25.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd6,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,20.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd10,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,9.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd11,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,15.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd12,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,29.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd13,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,14.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd16a,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,35.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lypla1,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,35.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lylpa2,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,39.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Ppt1,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,38.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17a,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,26.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17b,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,14.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17c,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,8.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,43.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7b,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,4.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Selenok,PG | Pituitary gland,Pituitary gland,Pituitary gland,,Brain Region: Pituitary gland; Region ID: PG,,,Brain Region: Pituitary gland; Region ID: PG,115.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc1,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,18.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc2,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,26.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc3,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,6.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc4,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,20.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc5,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,18.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc6,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,24.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc7,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,11.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc8,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,5.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc9,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,37.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc11,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc12,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,6.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc13,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,13.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc14,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,8.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc15,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,3.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc16,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,10.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc17,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,42.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc18,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,6.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc19,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc20,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,47.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc21,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,9.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc22,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,21.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc23,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,1.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc24,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,5.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc25,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd4,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,128.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd6,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,47.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd10,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,27.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd11,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,46.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd12,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,161.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd13,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,13.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd16a,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,55.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lypla1,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,56.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lylpa2,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,44.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Ppt1,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,125.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17a,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,71.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17b,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,53.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17c,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,16.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,238.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7b,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,36.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Selenok,PM | Pons and medulla,Pons and medulla,Pons and medulla,,Brain Region: Pons and medulla; Region ID: PM,,,Brain Region: Pons and medulla; Region ID: PM,138.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc1,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,9.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc2,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,85.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc3,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,3.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc4,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,16.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc5,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,83.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc6,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,37.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc7,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,13.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc8,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,2.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc9,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,24.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc11,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc12,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,12.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc13,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,22.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc14,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,5.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc15,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,1.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc16,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,29.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc17,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,37.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc18,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,5.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc19,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc20,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,8.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc21,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,8.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc22,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,20.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc23,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,0.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc24,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,2.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc25,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd4,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,59.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd6,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,38.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd10,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,28.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd11,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,20.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd12,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,95.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd13,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,18.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd16a,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,47.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lypla1,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,82.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lylpa2,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,61.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Ppt1,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,74.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17a,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,47.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17b,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,39.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17c,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,14.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,106.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7b,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,13.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Selenok,Ret | Retina,Retina,Retina,,Brain Region: Retina; Region ID: Ret,,,Brain Region: Retina; Region ID: Ret,107.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc1,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,17.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc2,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,36.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc3,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,6.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc4,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,21.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc5,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,24.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc6,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,23.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc7,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,13.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc8,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,6.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc9,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,55.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc11,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc12,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,5.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc13,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,14.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc14,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,16.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc15,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,4.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc16,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,11.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc17,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,49.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc18,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,8.5,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc19,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,0.0,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc20,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,29.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc21,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,11.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc22,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,73.8,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc23,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,2.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc24,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,3.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Zdhhc25,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd4,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,146.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd6,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,47.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd10,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,20.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd11,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,41.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd12,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,162.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd13,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,17.3,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd16a,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,44.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lypla1,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,49.1,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Lylpa2,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,50.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Ppt1,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,116.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17a,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,75.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17b,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,52.4,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Abhd17c,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,17.9,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,213.2,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Golga7b,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,34.7,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv
+Selenok,Thal | Thalamus,Thalamus,Thalamus,,Brain Region: Thalamus; Region ID: Thal,,,Brain Region: Thalamus; Region ID: Thal,132.6,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv

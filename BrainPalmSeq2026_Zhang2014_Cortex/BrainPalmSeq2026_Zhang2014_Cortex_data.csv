@@ -1,0 +1,281 @@
+Gene,ClusterName,Region,Class,Region2,Probable_location,Neurotransmitter,MarkerGenes,Description,Expression,SourceFile
+Zdhhc1,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,10.2,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc2,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,9.4,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc3,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,4.03,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc4,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,14.57,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc5,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,8.58,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc6,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,9.31,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc7,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,7.9,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc8,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,8.47,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc9,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,9.38,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc11,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,0.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc12,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,5.6,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc13,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,9.41,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc14,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,0.66,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc15,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,1.04,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc16,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,12.76,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc17,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,22.8,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc18,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,17.94,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc19,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,0.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc20,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,12.0,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc21,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,26.61,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc22,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,0.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc23,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,0.71,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc24,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,8.96,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc25,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,0.0,BPSmatrix_Zhang2014_Cortex.csv
+Abhd4,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,59.85,BPSmatrix_Zhang2014_Cortex.csv
+Abhd6,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,14.58,BPSmatrix_Zhang2014_Cortex.csv
+Abhd10,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,9.2,BPSmatrix_Zhang2014_Cortex.csv
+Abhd11,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,25.95,BPSmatrix_Zhang2014_Cortex.csv
+Abhd12,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,80.13,BPSmatrix_Zhang2014_Cortex.csv
+Abhd13,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,8.99,BPSmatrix_Zhang2014_Cortex.csv
+Abhd16a,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,,BPSmatrix_Zhang2014_Cortex.csv
+Lypla1,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,12.61,BPSmatrix_Zhang2014_Cortex.csv
+Lypla2,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,28.55,BPSmatrix_Zhang2014_Cortex.csv
+Ppt1,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,44.95,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17a,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,14.42,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17b,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,32.33,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17c,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,15.12,BPSmatrix_Zhang2014_Cortex.csv
+Golga7,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,23.28,BPSmatrix_Zhang2014_Cortex.csv
+Golga7b,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,0.29,BPSmatrix_Zhang2014_Cortex.csv
+Selk,AST | Astrocytes,Astrocytes,Astrocytes,,Cell Type: Astrocytes; Metacell ID: AST,,,Cell Type: Astrocytes; Metacell ID: AST,42.42,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc1,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,10.0,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc2,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,23.7,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc3,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,8.15,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc4,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,10.37,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc5,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,10.83,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc6,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,4.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc7,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,6.84,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc8,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,10.07,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc9,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,15.97,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc11,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,0.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc12,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,3.7,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc13,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,8.07,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc14,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,3.5,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc15,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,1.26,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc16,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,12.56,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc17,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,16.7,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc18,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,10.12,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc19,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,0.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc20,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,8.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc21,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,10.98,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc22,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,21.61,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc23,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,1.31,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc24,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,5.36,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc25,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,0.0,BPSmatrix_Zhang2014_Cortex.csv
+Abhd4,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,8.56,BPSmatrix_Zhang2014_Cortex.csv
+Abhd6,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,3.3,BPSmatrix_Zhang2014_Cortex.csv
+Abhd10,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,6.54,BPSmatrix_Zhang2014_Cortex.csv
+Abhd11,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,26.7,BPSmatrix_Zhang2014_Cortex.csv
+Abhd12,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,39.85,BPSmatrix_Zhang2014_Cortex.csv
+Abhd13,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,5.83,BPSmatrix_Zhang2014_Cortex.csv
+Abhd16a,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,,BPSmatrix_Zhang2014_Cortex.csv
+Lypla1,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,7.79,BPSmatrix_Zhang2014_Cortex.csv
+Lypla2,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,28.88,BPSmatrix_Zhang2014_Cortex.csv
+Ppt1,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,20.91,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17a,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,35.99,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17b,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,14.54,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17c,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,19.85,BPSmatrix_Zhang2014_Cortex.csv
+Golga7,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,26.49,BPSmatrix_Zhang2014_Cortex.csv
+Golga7b,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,19.4,BPSmatrix_Zhang2014_Cortex.csv
+Selk,NEUR | Neurons,Neurons,Neurons,,Cell Type: Neurons; Metacell ID: NEUR,,,Cell Type: Neurons; Metacell ID: NEUR,30.92,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc1,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,9.0,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc2,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,70.4,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc3,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,10.7,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc4,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,15.7,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc5,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,11.84,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc6,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,12.42,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc7,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,11.95,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc8,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,8.56,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc9,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,18.21,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc11,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,0.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc12,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,4.7,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc13,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,7.95,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc14,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,17.16,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc15,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,5.14,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc16,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,18.22,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc17,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,21.22,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc18,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,16.5,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc19,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,0.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc20,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,16.8,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc21,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,6.4,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc22,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,8.45,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc23,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,3.52,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc24,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,6.47,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc25,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,0.0,BPSmatrix_Zhang2014_Cortex.csv
+Abhd4,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,73.68,BPSmatrix_Zhang2014_Cortex.csv
+Abhd6,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,10.12,BPSmatrix_Zhang2014_Cortex.csv
+Abhd10,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,5.27,BPSmatrix_Zhang2014_Cortex.csv
+Abhd11,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,14.42,BPSmatrix_Zhang2014_Cortex.csv
+Abhd12,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,160.03,BPSmatrix_Zhang2014_Cortex.csv
+Abhd13,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,9.0,BPSmatrix_Zhang2014_Cortex.csv
+Abhd16a,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,,BPSmatrix_Zhang2014_Cortex.csv
+Lypla1,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,13.8,BPSmatrix_Zhang2014_Cortex.csv
+Lypla2,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,27.82,BPSmatrix_Zhang2014_Cortex.csv
+Ppt1,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,93.76,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17a,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,39.9,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17b,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,38.48,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17c,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,24.18,BPSmatrix_Zhang2014_Cortex.csv
+Golga7,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,67.53,BPSmatrix_Zhang2014_Cortex.csv
+Golga7b,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,3.2,BPSmatrix_Zhang2014_Cortex.csv
+Selk,OPC | 3,OPC,OPC,,Cell Type: OPC; Metacell ID: OPC,,,Cell Type: OPC; Metacell ID: OPC,42.08,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc1,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,6.0,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc2,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,36.08,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc3,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,8.87,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc4,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,12.9,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc5,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,6.73,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc6,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,7.72,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc7,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,23.35,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc8,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,7.35,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc9,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,94.68,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc11,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,0.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc12,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,20.0,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc13,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,6.02,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc14,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,31.64,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc15,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,1.75,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc16,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,16.82,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc17,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,22.77,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc18,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,8.81,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc19,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,0.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc20,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,13.3,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc21,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,5.38,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc22,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,1.67,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc23,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,1.51,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc24,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,14.45,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc25,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,0.0,BPSmatrix_Zhang2014_Cortex.csv
+Abhd4,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,107.72,BPSmatrix_Zhang2014_Cortex.csv
+Abhd6,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,6.1,BPSmatrix_Zhang2014_Cortex.csv
+Abhd10,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,3.52,BPSmatrix_Zhang2014_Cortex.csv
+Abhd11,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,12.97,BPSmatrix_Zhang2014_Cortex.csv
+Abhd12,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,125.98,BPSmatrix_Zhang2014_Cortex.csv
+Abhd13,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,6.0,BPSmatrix_Zhang2014_Cortex.csv
+Abhd16a,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,BPSmatrix_Zhang2014_Cortex.csv
+Lypla1,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,4.28,BPSmatrix_Zhang2014_Cortex.csv
+Lypla2,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,16.97,BPSmatrix_Zhang2014_Cortex.csv
+Ppt1,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,64.43,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17a,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,67.6,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17b,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,50.22,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17c,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,13.41,BPSmatrix_Zhang2014_Cortex.csv
+Golga7,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,215.28,BPSmatrix_Zhang2014_Cortex.csv
+Golga7b,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,0.76,BPSmatrix_Zhang2014_Cortex.csv
+Selk,NFO | Newly formed Oligo,Newly formed Oligo,Newly formed Oligo,,Cell Type: Newly formed Oligo; Metacell ID: NFO,,,Cell Type: Newly formed Oligo; Metacell ID: NFO,51.64,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc1,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,4.6,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc2,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,9.34,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc3,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,5.43,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc4,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,15.9,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc5,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,3.06,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc6,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,5.44,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc7,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,8.67,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc8,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,4.83,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc9,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,130.51,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc11,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,0.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc12,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,17.0,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc13,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,1.7,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc14,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,16.13,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc15,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,0.34,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc16,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,10.2,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc17,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,9.95,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc18,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,3.38,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc19,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,0.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc20,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,7.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc21,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,1.51,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc22,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,0.21,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc23,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,0.14,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc24,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,7.0,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc25,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,0.0,BPSmatrix_Zhang2014_Cortex.csv
+Abhd4,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,162.11,BPSmatrix_Zhang2014_Cortex.csv
+Abhd6,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,5.84,BPSmatrix_Zhang2014_Cortex.csv
+Abhd10,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,1.73,BPSmatrix_Zhang2014_Cortex.csv
+Abhd11,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,11.37,BPSmatrix_Zhang2014_Cortex.csv
+Abhd12,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,69.36,BPSmatrix_Zhang2014_Cortex.csv
+Abhd13,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,2.2,BPSmatrix_Zhang2014_Cortex.csv
+Abhd16a,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,,BPSmatrix_Zhang2014_Cortex.csv
+Lypla1,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,2.21,BPSmatrix_Zhang2014_Cortex.csv
+Lypla2,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,10.64,BPSmatrix_Zhang2014_Cortex.csv
+Ppt1,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,33.93,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17a,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,147.01,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17b,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,37.55,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17c,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,6.31,BPSmatrix_Zhang2014_Cortex.csv
+Golga7,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,249.51,BPSmatrix_Zhang2014_Cortex.csv
+Golga7b,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,4.33,BPSmatrix_Zhang2014_Cortex.csv
+Selk,MO | Myelinating Oligo,Myelinating Oligo,Myelinating Oligo,,Cell Type: Myelinating Oligo; Metacell ID: MO,,,Cell Type: Myelinating Oligo; Metacell ID: MO,52.88,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc1,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,5.5,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc2,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,0.53,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc3,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,5.8,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc4,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,12.91,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc5,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,16.9,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc6,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,4.17,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc7,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,16.9,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc8,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,8.33,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc9,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,15.27,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc11,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,0.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc12,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,2.8,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc13,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,3.0,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc14,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,7.52,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc15,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,0.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc16,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,11.09,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc17,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,1.67,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc18,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,17.34,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc19,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,0.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc20,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,8.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc21,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,0.44,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc22,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,0.17,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc23,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,0.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc24,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,5.07,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc25,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,0.0,BPSmatrix_Zhang2014_Cortex.csv
+Abhd4,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,47.41,BPSmatrix_Zhang2014_Cortex.csv
+Abhd6,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,5.38,BPSmatrix_Zhang2014_Cortex.csv
+Abhd10,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,2.18,BPSmatrix_Zhang2014_Cortex.csv
+Abhd11,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,10.25,BPSmatrix_Zhang2014_Cortex.csv
+Abhd12,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,494.68,BPSmatrix_Zhang2014_Cortex.csv
+Abhd13,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,2.65,BPSmatrix_Zhang2014_Cortex.csv
+Abhd16a,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,BPSmatrix_Zhang2014_Cortex.csv
+Lypla1,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,6.09,BPSmatrix_Zhang2014_Cortex.csv
+Lypla2,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,35.87,BPSmatrix_Zhang2014_Cortex.csv
+Ppt1,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,63.62,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17a,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,59.44,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17b,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,1.42,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17c,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,7.94,BPSmatrix_Zhang2014_Cortex.csv
+Golga7,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,14.94,BPSmatrix_Zhang2014_Cortex.csv
+Golga7b,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,5.81,BPSmatrix_Zhang2014_Cortex.csv
+Selk,IM | Microglia/Macrophage,Microglia/Macrophage,Microglia/Macrophage,,Cell Type: Microglia/Macrophage; Metacell ID: IM,,,Cell Type: Microglia/Macrophage; Metacell ID: IM,19.09,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc1,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,11.0,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc2,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,0.3,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc3,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,7.6,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc4,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,16.72,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc5,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,13.35,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc6,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,9.74,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc7,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,11.33,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc8,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,5.23,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc9,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,22.37,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc11,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,0.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc12,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,5.4,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc13,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,2.55,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc14,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,0.9,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc15,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,2.16,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc16,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,15.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc17,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,7.09,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc18,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,11.09,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc19,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,0.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc20,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,37.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc21,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,2.66,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc22,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,0.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc23,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,0.1,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc24,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,5.17,BPSmatrix_Zhang2014_Cortex.csv
+Zdhhc25,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,0.0,BPSmatrix_Zhang2014_Cortex.csv
+Abhd4,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,23.85,BPSmatrix_Zhang2014_Cortex.csv
+Abhd6,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,15.93,BPSmatrix_Zhang2014_Cortex.csv
+Abhd10,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,3.78,BPSmatrix_Zhang2014_Cortex.csv
+Abhd11,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,7.42,BPSmatrix_Zhang2014_Cortex.csv
+Abhd12,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,19.0,BPSmatrix_Zhang2014_Cortex.csv
+Abhd13,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,5.71,BPSmatrix_Zhang2014_Cortex.csv
+Abhd16a,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,,BPSmatrix_Zhang2014_Cortex.csv
+Lypla1,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,47.02,BPSmatrix_Zhang2014_Cortex.csv
+Lypla2,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,18.89,BPSmatrix_Zhang2014_Cortex.csv
+Ppt1,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,37.17,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17a,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,158.62,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17b,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,11.02,BPSmatrix_Zhang2014_Cortex.csv
+Abhd17c,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,25.56,BPSmatrix_Zhang2014_Cortex.csv
+Golga7,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,28.23,BPSmatrix_Zhang2014_Cortex.csv
+Golga7b,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,0.2,BPSmatrix_Zhang2014_Cortex.csv
+Selk,ENDO | Endothelial,Endothelial,Endothelial,,Cell Type: Endothelial; Metacell ID: ENDO,,,Cell Type: Endothelial; Metacell ID: ENDO,53.56,BPSmatrix_Zhang2014_Cortex.csv
