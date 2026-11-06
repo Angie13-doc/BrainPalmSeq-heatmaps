@@ -1,0 +1,29 @@
+dataset,populations,expression_records,source_matrix,verification,hover_populations
+BrainPalmSeq2026_OLeary2020_Amygdala,6,240,BPSmatrix_OLeary_Amygdala.csv,matched column count and matrix order,6
+BrainPalmSeq2026_Phillips2019_ThalamusSingleCell,17,680,BPSmatrix_Phillips2019_ThalamusSingleCell.csv,matched column count and matrix order,17
+BrainPalmSeq2026_Rosenberg2018_Neonatal,73,2920,BPSmatrix_Rosenberg2018_neonatal.csv,matched column count and matrix order,73
+BrainPalmSeq2026_Yao2023_BICCN_Astrocyte,60,2400,,original embedded BICCN annotations; original cluster matrix not provided for exact source-field audit,60
+BrainPalmSeq2026_Yao2023_BICCN_Glutamatergic,2597,103880,,original embedded BICCN annotations; original cluster matrix not provided for exact source-field audit,2597
+BrainPalmSeq2026_Yao2023_BICCN_GABAergic,2025,81000,,original embedded BICCN annotations; original cluster matrix not provided for exact source-field audit,2025
+BrainPalmSeq2026_Marques2016_Oligodendrocytes,22,880,,original embedded annotations; composite/HTML matrix not independently matched,22
+BrainPalmSeq2026_Kozareva2021_Cerebellum,46,1840,BPSmatrix_Kozareva2021_CerebellumNEW.csv,matched column count and matrix order,46
+BrainPalmSeq2026_Li2019_Microglia,9,360,BPSmatrix_Li2019_Microglia.csv,matched column count and matrix order,9
+BrainPalmSeq2026_Yao2023_BICCN_Oligodendrocyte,23,920,,original embedded BICCN annotations; original cluster matrix not provided for exact source-field audit,23
+BrainPalmSeq2026_Yao2023_BICCN_Neuromodulatory,583,23320,,original embedded BICCN annotations; original cluster matrix not provided for exact source-field audit,583
+BrainPalmSeq2026_Gokce2016_Striatum,10,400,BPSmatrix_Gokce2016_Striatum.csv,matched column count and matrix order,10
+BrainPalmSeq2026_Zeisel2015_S1,36,1440,BPSmatrix_Zeisel2015_S1.csv,matched column count and matrix order,36
+BrainPalmSeq2026_Phillips2019_ThalamusNuclei,22,880,BPSmatrix_Phillips2019_ThalamusNuclei.csv,matched column count and matrix order,22
+BrainPalmSeq2026_Yao2023_BICCN_OlfactoryEnsheathing,4,160,,original embedded BICCN annotations; original cluster matrix not provided for exact source-field audit,4
+BrainPalmSeq2026_Sjostedt2020_ProteinAtlas,13,520,BPSmatrix_Sjöstedt2020_ProteinAtlas.csv,matched column count and matrix order,13
+BrainPalmSeq2026_Yao2023_BICCN_Vascular,19,760,,original embedded BICCN annotations; original cluster matrix not provided for exact source-field audit,19
+BrainPalmSeq2026_Chen2017_Hypothalamus,47,1880,BPSmatrix_Chen2017Hypothal.csv,matched column count and matrix order,47
+BrainPalmSeq2026_Zeisel2018_MouseBrain,265,10600,,original embedded Zeisel annotations; source matrix columns not reverified,265
+BrainPalmSeq2026_Saunders2018_DropViz,565,22600,BPSmatrix_DropViz_CellType.csv,matched column count and matrix order,565
+BrainPalmSeq2026_Siletti2023_HumanBrain,461,18440,"BPS matrix_human_Siletti et al., 2022.csv",matched column count and matrix order,461
+BrainPalmSeq2026_Cembrowski2016_Hipposeq,20,800,BPSmatrix_Cembrowski2016_HippDorsalVentral.csv,original embedded annotations; composite matrix not independently matched,20
+BrainPalmSeq2026_Batiuk2020_Astrocytes,9,360,BPSmatrix_Batiuk_Astrocytes.csv,matched column count and matrix order,9
+BrainPalmSeq2026_Yao2023_BICCN_Immune,11,440,,original embedded BICCN annotations; original cluster matrix not provided for exact source-field audit,11
+BrainPalmSeq2026_Zhang2014_Cortex,7,280,BPSmatrix_Zhang2014_Cortex.csv,matched column count and matrix order,7
+BrainPalmSeq2026_Yao2020_AllenBrainMap,387,15480,BPS_matrix_AllenBrain10X_Fulldata.csv,matched column count and matrix order,387
+BrainPalmSeq2026_Yao2023_BICCN_Subclasses,338,13520,,original embedded BICCN annotations; original cluster matrix not provided for exact source-field audit,338
+BrainPalmSeq2026_Zeisel2015_CA1,26,1040,BPSmatrix_Zeisel2015_CA1.csv,matched column count and matrix order,26
