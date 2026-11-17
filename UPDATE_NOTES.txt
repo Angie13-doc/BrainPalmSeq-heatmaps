@@ -1,0 +1,7 @@
+BrainPalmSeq2026 global fixes
+Colour scale uses the full dataset maximum across all genes and populations. Removed Fit current selection to avoid a misleading duplicate setting.
+Select all selects all categories; Clear selects none; Reset restores all.
+Gene and population mean rankings use full-dataset scores; changing rank resets pagination.
+HippoSeq shortened axis labels; source IDs, CSVs and hover retain full names.
+Includes latest Search by Gene page.
+Upload the extracted dataset folders to the repository root, replacing matching files.

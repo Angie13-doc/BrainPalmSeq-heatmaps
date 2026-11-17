@@ -69,7 +69,7 @@
 <div class="wide"><label>Cell types / brain regions to compare</label><div class="region-groups"></div><button type="button" class="add-region">+ Add another cell type / region</button><div class="help">Add as many searches as needed. Words within each search narrow that group (e.g. a cell-type label and marker gene). Leave the search blank to show all cell populations. Empty additional searches are ignored. Searches match 4 cell populations and their original metadata. Suggestions are drawn from this dataset only; anatomical regions are not inferred from transcriptomic labels. Matching populations appear once, in the first matching group.</div></div>
 <div class="broad-dropdown"><label id="bps-broad-label">Cell categories</label><button type="button" class="broad-toggle" aria-expanded="false" aria-controls="bps-broad-panel"><span class="broad-count">All cell categories</span><span aria-hidden="true">▾</span></button><div id="bps-broad-panel" class="broad-panel" hidden><div class="broad-tools"><button type="button" class="broad-all">All cell categories</button><button type="button" class="broad-clear">Clear</button></div><div class="broad-list"></div></div></div>
 <div class="gene-dropdown"><label id="bps-gene-label">Genes to display</label><button type="button" class="gene-toggle" aria-expanded="false" aria-controls="bps-gene-panel" aria-labelledby="bps-gene-label bps-gene-count"><span id="bps-gene-count" class="gene-count">All genes (40)</span><span aria-hidden="true">▾</span></button><div id="bps-gene-panel" class="gene-panel" hidden><div class="gene-tools"><button type="button" data-pick="all">All genes</button><button type="button" data-pick="zdhhc">ZDHHC only</button><button type="button" data-pick="nonzdhhc">Non-ZDHHC only</button><button type="button" data-pick="none">Clear</button></div><div class="gene-list"></div></div><div class="help">Tick multiple genes to compare their expression.</div></div>
-<div><label for="bps-scale">Colour scale</label><select id="bps-scale" class="scale"><option value="fixed">Fixed across all cells (dataset maximum)</option><option value="dynamic">Fit current selection</option></select></div>
+<div><label for="bps-scale">Colour scale</label><select id="bps-scale" class="scale"><option value="fixed">Fixed across all cells (dataset maximum)</option></select></div>
 <div><label for="bps-palette">Colour palette</label><select id="bps-palette" class="palette-select"><option value="original">Spectral</option><option value="viridis">Viridis</option><option value="mako">Mako</option><option value="rocket">Rocket</option></select></div>
 <div class="ranking-controls wide" role="group" aria-label="Rank heatmap by mean expression"><strong>Rank by mean expression</strong><label><input type="checkbox" class="rank-genes"> Genes — highest global mean first</label><label><input type="checkbox" class="rank-cells"> Cell populations — highest global mean first (within each search group)</label><div class="help">Ranks use the entire dataset (all genes and cell populations), independent of current filters. Untick to restore the original order.</div></div>
 <div class="actions wide"><button type="button" class="reset">Reset</button><button type="button" class="export">Export CSV</button><button type="button" class="export-png">Export PNG</button><button type="button" class="export-svg">Export SVG</button></div>
@@ -96,13 +96,14 @@ const globalGeneScores=new Map(),globalCellScores=new Map();
 // Broad region choices are sourced from the original Region2 metadata, including
 // comma-separated multi-region annotations. No atlas labels are overwritten.
 const broadField=[...cells.values()].some(r=>String(r.Region2||'').trim())?'Region2':'Class';const broadNames=[...new Set([...cells.values()].flatMap(r=>String(r[broadField]||'').split(',').map(x=>x.trim()).filter(Boolean)))].sort(collator.compare);
-const broadSelected=new Set();const broadList=$('.broad-list'),broadPanel=$('.broad-panel'),broadToggle=$('.broad-toggle');
+const broadSelected=new Set(broadNames);const broadList=$('.broad-list'),broadPanel=$('.broad-panel'),broadToggle=$('.broad-toggle');
 for(const name of broadNames){const label=document.createElement('label'),cb=document.createElement('input');cb.type='checkbox';cb.value=name;label.append(cb,document.createTextNode(name));broadList.append(label);cb.addEventListener('change',()=>{if(cb.checked)broadSelected.add(name);else broadSelected.delete(name);render()})}
+syncBroad();
 function syncBroad(){for(const cb of broadList.querySelectorAll('input'))cb.checked=broadSelected.has(cb.value)}
 broadToggle.addEventListener('click',()=>{broadPanel.hidden=!broadPanel.hidden;broadToggle.setAttribute('aria-expanded',String(!broadPanel.hidden))});
-$('.broad-all').addEventListener('click',()=>{broadSelected.clear();syncBroad();render()});
-$('.broad-clear').addEventListener('click',()=>{broadSelected.clear();broadNames.forEach(n=>broadSelected.add(n));syncBroad();render()});
-function broadMatches(r){return broadSelected.size===0||String(r[broadField]||'').split(',').some(n=>broadSelected.has(n.trim()))}
+$('.broad-all').addEventListener('click',()=>{broadSelected.clear();broadNames.forEach(n=>broadSelected.add(n));syncBroad();render()});
+$('.broad-clear').addEventListener('click',()=>{broadSelected.clear();syncBroad();render()});
+function broadMatches(r){return String(r[broadField]||'').split(',').some(n=>broadSelected.has(n.trim()))}
 
 const fixedMax=rows.reduce((max,r)=>Number.isFinite(r.Expression)?Math.max(max,r.Expression):max,0),chosen=new Set(geneNames);
 const geneList=$('.gene-list');for(const gene of geneNames){const label=document.createElement('label'),input=document.createElement('input');input.type='checkbox';input.checked=true;input.value=gene;label.append(input,document.createTextNode(gene));geneList.append(label);input.addEventListener('change',()=>{if(input.checked)chosen.add(gene);else chosen.delete(gene);render()})}
@@ -198,12 +199,12 @@ $('.zoom-out').addEventListener('click',()=>setZoom(Number(zoomRange.value)-25))
 $('.zoom-reset').addEventListener('click',()=>setZoom(100));
 zoomRange.addEventListener('input',()=>setZoom(Number(zoomRange.value)));
 function render(){tip.hidden=true;
-$('.broad-count').textContent=broadSelected.size===0?'All cell categories':broadSelected.size===broadNames.length?'All cell categories selected':broadSelected.size+' categories selected';
+$('.broad-count').textContent=broadSelected.size===0?'No categories selected':broadSelected.size===broadNames.length?'All cell categories selected':broadSelected.size+' categories selected';
  const {groups}=selection();
  let genes=geneNames.filter(g=>chosen.has(g));
  // Global rankings: scores always use all populations and all genes, independent of filters.
  function meanForGene(g){return globalGeneScores.get(g)??-Infinity}
- function meanForCell(c){let sum=0,n=0;for(const g of genes){const r=values.get(c+'\u0000'+g);if(r&&Number.isFinite(r.Expression)){sum+=r.Expression;n++}}return n?sum/n:-Infinity}
+ function meanForCell(c){return globalCellScores.get(c)??-Infinity}
  if(rankGenes.checked){const scores=new Map(genes.map(g=>[g,meanForGene(g)]));genes.sort((a,b)=>scores.get(b)-scores.get(a)||geneNames.indexOf(a)-geneNames.indexOf(b))}
  const rankedGroups=groups.map(group=>({...group,cells:rankCells.checked?[...group.cells].sort((a,b)=>meanForCell(b)-meanForCell(a)||group.cells.indexOf(a)-group.cells.indexOf(b)):group.cells}));
  const allCols=rankedGroups.flatMap(g=>g.cells);
@@ -215,7 +216,7 @@ $('.broad-count').textContent=broadSelected.size===0?'All cell categories':broad
  $('.page-status').textContent='Page '+(page+1)+' of '+pageCount+' · '+allCols.length+' matching populations';
  $('.page-prev').disabled=page===0;$('.page-next').disabled=page>=pageCount-1;
  const filtered=cols.flatMap(c=>genes.map(g=>values.get(c+'\u0000'+g)).filter(Boolean));current=filtered;
- const high=scale.value==='fixed'?fixedMax:filtered.reduce((v,r)=>Math.max(v,Number.isFinite(r.Expression)?r.Expression:0),0);$('.high').textContent=high.toFixed(3);
+ const high=fixedMax;$('.high').textContent=high.toFixed(3);
  const n=cols.length;$('.gene-count').textContent=chosen.size===geneNames.length?'All genes ('+chosen.size+')':chosen.size+' genes selected';
  summary.textContent=allCols.length+' matching cell populations ('+n+' displayed)  · '+genes.length+' genes · '+filtered.length+' measurements'+(regionQueries.length>1?' · comparison mode':'');
  const empty=n===0||genes.length===0;$('.empty').hidden=!empty;canvas.hidden=empty;exportBtn.disabled=empty;if(empty){layout=null;syncScrollControls();return}
@@ -248,7 +249,7 @@ scrollLeftBtn.addEventListener('click',()=>scroll.scrollBy({left:-Math.max(120,s
 scrollRightBtn.addEventListener('click',()=>scroll.scrollBy({left:Math.max(120,scroll.clientWidth*.75),behavior:'smooth'}));
 scrollPosition.addEventListener('input',()=>{scroll.scrollLeft=(scroll.scrollWidth-scroll.clientWidth)*Number(scrollPosition.value)/1000;syncScrollControls()});
 window.addEventListener('resize',syncScrollControls);
-scale.addEventListener('change',render);rankGenes.addEventListener('change',render);rankCells.addEventListener('change',render);
+scale.addEventListener('change',render);rankGenes.addEventListener('change',()=>{page=0;render()});rankCells.addEventListener('change',()=>{page=0;render()});
 let lastHoverPointer=null;
 function refreshHover(){
  if(!lastHoverPointer || !layout){tip.hidden=true;return}
@@ -264,7 +265,7 @@ canvas.addEventListener('pointerenter',trackHover);
 canvas.addEventListener('pointermove',trackHover);
 canvas.addEventListener('pointerdown',trackHover);
 canvas.addEventListener('pointerleave',()=>{lastHoverPointer=null;tip.hidden=true});scroll.addEventListener('scroll',()=>{tip.hidden=true;syncScrollControls()});window.addEventListener('blur',()=>tip.hidden=true);
-$('.reset').addEventListener('click',()=>{zoomFactor=1;cw=12;rh=14;zoomRange.value='100';zoomValue.textContent='100%';regionQueries=[''];rebuildRegionInputs();broadSelected.clear();syncBroad();scale.value='fixed';$('.palette-select').value='original';palette=originalPalette;$('.ramp').style.background='linear-gradient(to right,'+palette.join(',')+')';rankGenes.checked=false;rankCells.checked=false;chosen.clear();geneNames.forEach(g=>chosen.add(g));syncGenes();render()});
+$('.reset').addEventListener('click',()=>{zoomFactor=1;cw=12;rh=14;zoomRange.value='100';zoomValue.textContent='100%';regionQueries=[''];rebuildRegionInputs();broadSelected.clear();broadNames.forEach(n=>broadSelected.add(n));syncBroad();scale.value='fixed';$('.palette-select').value='original';palette=originalPalette;$('.ramp').style.background='linear-gradient(to right,'+palette.join(',')+')';rankGenes.checked=false;rankCells.checked=false;chosen.clear();geneNames.forEach(g=>chosen.add(g));syncGenes();render()});
 $('.export').addEventListener('click',()=>{if(!current.length)return;const keys=['Gene','ClusterName','Region','Class','Region2','Probable_location','Neurotransmitter','MarkerGenes','Description','Expression'],esc=v=>'"'+String(v??'').replace(/"/g,'""')+'"';const csv=[keys.join(','),...current.map(r=>keys.map(k=>esc(r[k])).join(','))].join('\r\n');const blob=new Blob([csv],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download='BrainPalmSeq2026_Yao2023_BICCN_OlfactoryEnsheathing_selection.csv';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000)});
 
 // Publication figure export: SVG uses vector rectangles and editable text.
