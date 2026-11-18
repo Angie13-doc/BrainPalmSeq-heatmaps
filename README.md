@@ -25,7 +25,7 @@ All folders start with `BrainPalmSeq2026_`. Columns are populations as defined b
 | Folder | Populations | Expression units | Notes |
 |---|---:|---|---|
 | `Batiuk2020_Astrocytes` | 9 | Mean log₂(counts per 10,000 + 1) | |
-| `Cembrowski2016_Hipposeq` | 20 | FPKM | Four related but distinct experiments; compare across them cautiously. Short axis labels; full names in hover and CSV. |
+| `Cembrowski2016_Hipposeq` | 20 | FPKM | Four related but distinct experiments; compare across them cautiously. Short axis labels; full names in hover and CSV. Optional log₂(FPKM + 1) colours. |
 | `Chen2017_Hypothalamus` | 47 | Mean log₂(counts per 10,000 + 1) | |
 | `Gokce2016_Striatum` | 10 | Mean log₂(counts per 10,000 + 1) | |
 | `Kozareva2021_Cerebellum` | 46 | Mean log₂(counts per 10,000 + 1) | |
@@ -37,7 +37,7 @@ All folders start with `BrainPalmSeq2026_`. Columns are populations as defined b
 | `Rosenberg2018_Neonatal` | 73 | Mean log₂(counts per 10,000 + 1) | |
 | `Saunders2018_DropViz` | 565 | Mean log₂(counts per 10,000 + 1) | |
 | `Siletti2023_HumanBrain` | 461 | Mean log₂(counts per 10,000 + 1) | Human; uppercase gene symbols. |
-| `Sjostedt2020_ProteinAtlas` | 13 | Protein-coding transcripts per million (pTPM) | |
+| `Sjostedt2020_ProteinAtlas` | 13 | Protein-coding transcripts per million (pTPM) | Optional log₂(pTPM + 1) colours. |
 | `Yao2020_AllenBrainMap` | 387 | Trimmed mean (25%–75%) log₂(CPM + 1) | |
 | `Yao2023_BICCN_Astrocyte` | 60 | Mean log₂(counts per million; CPM) | Allen whole-brain transcriptomic clusters |
 | `Yao2023_BICCN_GABAergic` | 2,025 | Mean log₂(counts per million; CPM) | Allen clusters |
@@ -51,7 +51,7 @@ All folders start with `BrainPalmSeq2026_`. Columns are populations as defined b
 | `Zeisel2015_CA1` | 26 | Mean log₂(counts per 10,000 + 1) | |
 | `Zeisel2015_S1` | 36 | Mean log₂(counts per 10,000 + 1) | |
 | `Zeisel2018_MouseBrain` | 265 | Mean log₂(counts per 10,000 + 1) | Zeisel metacell types |
-| `Zhang2014_Cortex` | 7 | FPKM | |
+| `Zhang2014_Cortex` | 7 | FPKM | Optional log₂(FPKM + 1) colours. |
 
 Each folder contains:
 
@@ -66,6 +66,7 @@ Genes are rows and populations are columns, coloured on the reversed Hawaii scal
 - **Search** one or more cell types or regions. Each extra search becomes a labelled comparison group. Suggestions come from the dataset's own annotations, such as population names, classes, marker genes and descriptions.
 - **Filter** by the dataset's categories, and choose which genes to show (all, ZDHHC only, non-ZDHHC, or any set).
 - **Colour scale:** *Fixed across all cells* uses the dataset maximum, which is best for comparing searches. *Fit current selection* uses the maximum across everything selected, on screen or not.
+- **Expression scale** (Zhang 2014, HippoSeq and Sjöstedt 2020, the datasets not already in log units): original values, or log₂(value + 1) for colours. It changes the heatmap, summary band, legend and SVG/PNG colours. The hover shows the original value and, with log₂ on, the log value too (e.g. "39.85 FPKM (log₂(FPKM + 1) = 5.352)"). CSV export and ranking keep the original values.
 - **Rank** genes and/or populations by mean expression across the whole dataset.
 - **Browse:** every matching population sits in one strip that scrolls sideways. When the strip is wider than the view, a *Whole selection* band above it summarises everything selected, with a frame for the visible part. Click or drag the band, use its ◀ Left / Right ▶ buttons, or Tab to it and use the arrow keys, Page Up/Down and Home/End. *Heatmap size* zooms.
 
@@ -101,6 +102,7 @@ The dataset pages were first generated outside this repository from each study's
 | `compact_heatmap_data.py` | Stored the embedded data compactly and added the decoder. Before writing a page, it checks that the decoded data matches the original exactly. |
 | `verify_compact_data.js` | Repeats that check with Node.js: `node tools/verify_compact_data.js ORIGINAL.html COMPACT.html`. |
 | `fix_export_scale_bar.py` | Laid out the SVG/PNG scale bar so it is never clipped. |
+| `add_log_scale_option.py` | Added the original / log₂(value + 1) Expression scale option to the FPKM and pTPM datasets. |
 
 **To change the heatmap engine:** edit `tools/continuous_heatmap_engine.js` (and the markup or styles in `apply_continuous_heatmap.py` if needed), then run from the repository root:
 
