@@ -1,5 +1,5 @@
 BrainPalmSeq2026 global fixes
-Colour scale uses the full dataset maximum across all genes and populations. Removed Fit current selection to avoid a misleading duplicate setting.
+Colour scale: "Fixed across all cells" uses the full dataset maximum across all genes and populations; "Fit current selection" uses the maximum across every selected population and gene (the whole continuous heatmap, not only the part on screen).
 Select all selects all categories; Clear selects none; Reset restores all.
 Gene and population mean rankings use full-dataset scores; changing rank resets pagination.
 HippoSeq shortened axis labels; source IDs, CSVs and hover retain full names.
