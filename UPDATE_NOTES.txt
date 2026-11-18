@@ -7,3 +7,4 @@ Includes latest Search by Gene page.
 Upload the extracted dataset folders to the repository root, replacing matching files.
 Heatmaps use one colour map only: reversed Hawaii (Crameri Scientific Colour Maps; pale cyan = low, dark magenta = high). Palette selector removed. Re-apply with tools/apply_hawaii_palette.py.
 Gene names are italic: heatmap row labels (screen, SVG, PNG), gene checklist, hover Gene and marker-gene fields, marker-gene suggestions, and Search by Gene hover heading and PNG title. Letters unchanged. Re-apply with tools/italicize_gene_names.py.
+Heatmaps show every matching population in one continuous, sideways-scrolling strip (no pages of 150), with a whole-selection summary band above it (click or drag to jump; shown when the heatmap is wider than the view). Category labels appear along the top where categories form clean runs. CSV/SVG/PNG exports cover the whole selection. Re-apply with tools/apply_continuous_heatmap.py.
