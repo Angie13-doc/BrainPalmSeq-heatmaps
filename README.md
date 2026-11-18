@@ -61,11 +61,12 @@ Each folder contains:
 
 ## Using a heatmap
 
-Genes are rows and populations are columns, coloured on the reversed Hawaii scale (pale cyan = low, dark magenta = high).
+Genes are rows and populations are columns, coloured by default on the reversed Hawaii scale (pale cyan = low, dark magenta = high).
 
 - **Search** one or more cell types or regions. Each extra search becomes a labelled comparison group. Suggestions come from the dataset's own annotations, such as population names, classes, marker genes and descriptions.
 - **Filter** by the dataset's categories, and choose which genes to show (all, ZDHHC only, non-ZDHHC, or any set).
 - **Colour scale:** *Fixed across all cells* uses the dataset maximum, which is best for comparing searches. *Fit current selection* uses the maximum across everything selected, on screen or not.
+- **Colour map:** *Hawaii* (default; Crameri, reversed), *Turbo* (matplotlib; best for telling small differences apart, but not colour-blind safe) or *Spectral* (matplotlib, reversed; the BrainPalmSeq v1.0 default; not colour-blind safe). Turbo and Spectral run blue = low. The map colours the heatmap, summary band, legend and SVG/PNG exports; Reset returns to Hawaii.
 - **Expression scale** (Zhang 2014, HippoSeq and Sjöstedt 2020, the datasets not already in log units): original values, or log₂(value + 1) for colours. It changes the heatmap, summary band, legend and SVG/PNG colours. The hover shows the original value and, with log₂ on, the log value too (e.g. "39.85 FPKM (log₂(FPKM + 1) = 5.352)"). CSV export and ranking keep the original values.
 - **Rank** genes by their mean across every population in the dataset, and/or populations by their mean over the selected genes (with one gene selected, by that gene alone). Populations are ranked within each search group. Ranking uses the original values.
 - **Browse:** every matching population sits in one strip that scrolls sideways. When the strip is wider than the view, a *Whole selection* band above it summarises everything selected, with a frame for the visible part. Click or drag the band, use its ◀ Left / Right ▶ buttons, or Tab to it and use the arrow keys, Page Up/Down and Home/End. *Heatmap size* zooms.
@@ -103,6 +104,7 @@ The dataset pages were first generated outside this repository from each study's
 | `verify_compact_data.js` | Repeats that check with Node.js: `node tools/verify_compact_data.js ORIGINAL.html COMPACT.html`. |
 | `fix_export_scale_bar.py` | Laid out the SVG/PNG scale bar so it is never clipped. |
 | `fix_population_ranking.py` | Made population ranking use the selected genes instead of the mean of all 40. |
+| `add_colour_map_option.py` | Added the Hawaii / Turbo / Spectral colour map menu. |
 | `add_log_scale_option.py` | Added the original / log₂(value + 1) Expression scale option to the FPKM and pTPM datasets. |
 
 **To change the heatmap engine:** edit `tools/continuous_heatmap_engine.js` (and the markup or styles in `apply_continuous_heatmap.py` if needed), then run from the repository root:
