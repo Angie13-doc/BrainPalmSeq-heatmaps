@@ -85,6 +85,7 @@
 <div class="broad-dropdown"><label id="bps-broad-label">Cell categories</label><button type="button" class="broad-toggle" aria-expanded="false" aria-controls="bps-broad-panel"><span class="broad-count">All cell categories</span><span aria-hidden="true">▾</span></button><div id="bps-broad-panel" class="broad-panel" hidden><div class="broad-tools"><button type="button" class="broad-all">All cell categories</button><button type="button" class="broad-clear">Clear</button></div><div class="broad-list"></div></div></div>
 <div class="gene-dropdown"><label id="bps-gene-label">Genes to display</label><button type="button" class="gene-toggle" aria-expanded="false" aria-controls="bps-gene-panel" aria-labelledby="bps-gene-label bps-gene-count"><span id="bps-gene-count" class="gene-count">All genes (40)</span><span aria-hidden="true">▾</span></button><div id="bps-gene-panel" class="gene-panel" hidden><div class="gene-tools"><button type="button" data-pick="all">All genes</button><button type="button" data-pick="zdhhc">ZDHHC only</button><button type="button" data-pick="nonzdhhc">Non-ZDHHC only</button><button type="button" data-pick="none">Clear</button></div><div class="gene-list"></div></div><div class="help">Tick multiple genes to compare their expression.</div></div>
 <div><label for="bps-scale">Colour scale</label><select id="bps-scale" class="scale"><option value="fixed">Fixed across all cells (dataset maximum)</option><option value="dynamic">Fit current selection</option></select></div>
+<div class="colour-transform-control" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:8px 0"><label for="colour-transform-select">Expression scale</label><select id="colour-transform-select" aria-label="Expression scale"><option value="raw">Original FPKM (default)</option><option value="log">log₂(FPKM + 1)</option></select><span style="font-size:11px;color:#657080">Hover and CSV retain original values</span></div>
 
 <div class="ranking-controls wide" role="group" aria-label="Rank heatmap by mean expression"><strong>Rank by mean expression</strong><label><input type="checkbox" class="rank-genes"> Genes — highest global mean first</label><label><input type="checkbox" class="rank-cells"> Cell populations — highest global mean first (within each search group)</label><div class="help">Ranks use the entire dataset (all genes and cell populations), independent of current filters. Untick to restore the original order.</div></div>
 <div class="actions wide"><button type="button" class="reset">Reset</button><button type="button" class="export">Export CSV</button><button type="button" class="export-png">Export PNG</button><button type="button" class="export-svg">Export SVG</button></div>
@@ -129,6 +130,8 @@ $('.broad-all').addEventListener('click',()=>{broadSelected.clear();broadNames.f
 $('.broad-clear').addEventListener('click',()=>{broadSelected.clear();syncBroad();render()});
 function broadMatches(r){return String(r[broadField]||'').split(',').some(n=>broadSelected.has(n.trim()))}
 
+// Expression scale: colours use original values or log2(value + 1); hover, CSV and ranking keep originals.
+const colourTransform=$('#colour-transform-select');const colourValue=r=>{const v=Number(r.Expression);return Number.isFinite(v)?(colourTransform.value==='log'?Math.log2(Math.max(0,v)+1):v):NaN};colourTransform.addEventListener('change',()=>render());
 const fixedMax=rows.reduce((max,r)=>Number.isFinite(r.Expression)?Math.max(max,r.Expression):max,0),chosen=new Set(geneNames);
 const geneList=$('.gene-list');for(const gene of geneNames){const label=document.createElement('label'),input=document.createElement('input');input.type='checkbox';input.checked=true;input.value=gene;label.append(input,Object.assign(document.createElement('i'),{textContent:gene}));geneList.append(label);input.addEventListener('change',()=>{if(input.checked)chosen.add(gene);else chosen.delete(gene);render()})}
 function syncGenes(){for(const input of geneList.querySelectorAll('input'))input.checked=chosen.has(input.value)}
@@ -218,16 +221,16 @@ $('.broad-count').textContent=broadSelected.size===0?'No categories selected':br
  const allCols=rankedGroups.flatMap(g=>g.cells);
  const cols=allCols;const visibleGroups=rankedGroups.filter(g=>g.cells.length);
  const filtered=cols.flatMap(c=>genes.map(g=>values.get(c+'\u0000'+g)).filter(Boolean));current=filtered;
- const high=scale.value==='fixed'?fixedMax:filtered.reduce((v,r)=>Math.max(v,Number.isFinite(r.Expression)?r.Expression:0),0);$('.high').textContent=high.toFixed(3);
+ const high=scale.value==='fixed'?(colourTransform.value==='log'?Math.log2(fixedMax+1):fixedMax):filtered.reduce((v,r)=>{const c=colourValue(r);return Number.isFinite(c)?Math.max(v,c):v},0);$('.high').textContent=high.toFixed(3);$('.legend span:first-child').textContent=colourTransform.value==='log'?'Colour: log₂(FPKM + 1)':'Expression (FPKM)';
  const n=cols.length;$('.gene-count').textContent=chosen.size===geneNames.length?'All genes ('+chosen.size+')':chosen.size+' genes selected';
  summary.textContent=allCols.length+' matching cell populations · '+genes.length+' genes · '+filtered.length+' measurements'+(regionQueries.length>1?' · comparison mode':'');
  const empty=n===0||genes.length===0;$('.empty').hidden=!empty;canvas.hidden=empty;exportBtn.disabled=empty;if(empty){layout=null;syncScrollControls();return}
- bpsUpdate({cols,visibleGroups,genes,high,colour:r=>Number(r.Expression),label:c=>c});}
+ bpsUpdate({cols,visibleGroups,genes,high,colour:r=>colourValue(r),label:c=>c});}
 function showPoint(clientX,clientY){if(!layout)return;const rect=canvas.getBoundingClientRect();if(!rect.width||!rect.height)return;
  const vx=clientX-rect.left,x=vx<left?-1:vx+scroll.scrollLeft,y=clientY-rect.top,row=Math.floor((y-top)/rh);
  const col=x<0?-1:bpsColAt(x);if(row<0||row>=layout.genes.length||col<0){tip.hidden=true;return}
  const r=layout.lookup.get(row*layout.n+col);if(!r){tip.hidden=true;return}
- const geneFields=new Set(["Gene", "Marker genes", "MarkerGenes", "Marker Genes", "Type marker", "Top Enriched Genes", "Class marker"]),fields=[['Gene',r.Gene],['Population',r.ClusterName],...(hoverMetadata[r.ClusterName]||[]),['Expression',Number.isFinite(r.Expression)?r.Expression.toFixed(6):'NA']];
+ const geneFields=new Set(["Gene", "Marker genes", "MarkerGenes", "Marker Genes", "Type marker", "Top Enriched Genes", "Class marker"]),fields=[['Gene',r.Gene],['Population',r.ClusterName],...(hoverMetadata[r.ClusterName]||[]),['Expression',Number.isFinite(r.Expression)?r.Expression.toFixed(6)+' FPKM'+(colourTransform.value==='log'?' (log₂(FPKM + 1) = '+Math.log2(Math.max(0,r.Expression)+1).toFixed(3)+')':''):'NA']];
  tip.replaceChildren();
  fields.filter(([,v])=>String(v??'').trim()).forEach(([k,v],i)=>{
   if(i)tip.appendChild(document.createTextNode('\n'));
@@ -342,7 +345,7 @@ canvas.addEventListener('pointerenter',trackHover);
 canvas.addEventListener('pointermove',trackHover);
 canvas.addEventListener('pointerdown',trackHover);
 canvas.addEventListener('pointerleave',()=>{lastHoverPointer=null;tip.hidden=true});scroll.addEventListener('scroll',()=>{tip.hidden=true;syncScrollControls()});window.addEventListener('blur',()=>tip.hidden=true);
-$('.reset').addEventListener('click',()=>{zoomFactor=1;cw=12;rh=14;zoomRange.value='100';zoomValue.textContent='100%';regionQueries=[''];rebuildRegionInputs();broadSelected.clear();broadNames.forEach(n=>broadSelected.add(n));syncBroad();scale.value='fixed';$('.ramp').style.background='linear-gradient(to right,'+palette.join(',')+')';rankGenes.checked=false;rankCells.checked=false;chosen.clear();geneNames.forEach(g=>chosen.add(g));syncGenes();render()});
+$('.reset').addEventListener('click',()=>{zoomFactor=1;cw=12;rh=14;zoomRange.value='100';zoomValue.textContent='100%';regionQueries=[''];rebuildRegionInputs();broadSelected.clear();broadNames.forEach(n=>broadSelected.add(n));syncBroad();scale.value='fixed';colourTransform.value='raw';$('.ramp').style.background='linear-gradient(to right,'+palette.join(',')+')';rankGenes.checked=false;rankCells.checked=false;chosen.clear();geneNames.forEach(g=>chosen.add(g));syncGenes();render()});
 $('.export').addEventListener('click',()=>{if(!current.length)return;const keys=['Gene','ClusterName','Region','Class','Region2','Probable_location','Neurotransmitter','MarkerGenes','Description','Expression','SourceFile'],esc=v=>'"'+String(v??'').replace(/"/g,'""')+'"';const csv=[keys.join(','),...current.map(r=>keys.map(k=>esc(r[k])).join(','))].join('\r\n');const blob=new Blob([csv],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download='BrainPalmSeq2026_Zhang2014_Cortex_selection.csv';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000)});
 
 // Publication figure export: SVG uses vector rectangles and editable text.
@@ -365,7 +368,7 @@ function bpsFigureExport(format){
  const x0=pad,y0=head;
  for(let i=0;i<L.cols.length;i++)for(let j=0;j<L.genes.length;j++){
   const r=values.get(L.cols[i]+'\u0000'+L.genes[j]);if(!r)continue;
-  const color=Number.isFinite(r.Expression)?hex(r.Expression):'#333333';
+  const cval=colourValue(r),color=Number.isFinite(cval)?hex(cval):'#333333';
   parts.push(`<rect x="${x0+L.positions[i]}" y="${y0+top+j*rh}" width="${Math.max(0,cw-.5)}" height="${Math.max(0,rh-.5)}" fill="${color}"/>`);
  }
  for(let j=0;j<L.genes.length;j++)parts.push(`<text x="${x0+left-8}" y="${y0+top+(j+.5)*rh}" text-anchor="end" dominant-baseline="middle" font-family="Arial" font-size="${Math.max(10,Math.round(10*zoomFactor))}" font-style="italic" fill="#263649">${esc(L.genes[j])}</text>`);
