@@ -349,12 +349,17 @@ function bpsFigureExport(format){
  if(!layout)return;
  const L=layout, unit=($('.legend span')?.textContent||'Expression').trim();
  const title=document.title.replace(/\s+/g,' ').trim();
- const pad=24,head=44,foot=64,W=L.width+pad*2,H=L.height+head+foot;
+ const pad=24,head=44;
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
  const max=Number($('.high').textContent)||0;
  const hex=v=>{const t=Math.max(0,Math.min(1,max>0?v/max:0));return palette[Math.max(0,Math.min(palette.length-1,Math.floor(t*(palette.length-1))))]};
  const base=(location.pathname.split('/').filter(Boolean).pop()||'BrainPalmSeq').replace(/\.html$/,'');
  const save=(blob,ext)=>{const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=base+'_heatmap.'+ext;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500)};
+ // Legend below the heatmap: units line, colour bar, then "0" and the maximum on one line under the bar.
+ const measureText=(s,font)=>{const c=document.createElement('canvas').getContext('2d');c.font=font;return c.measureText(String(s)).width};
+ const maxLabel=max.toFixed(3),bar=Math.min(250,Math.max(160,L.width-left));
+ const legendW=Math.max(measureText(unit,'12px Arial'),bar,measureText('0','11px Arial')+measureText(maxLabel,'11px Arial')+16);
+ const W=Math.ceil(Math.max(L.width,legendW)+pad*2),unitY=head+L.height+16,by=unitY+8,barH=11,labelY=by+barH+13,H=Math.ceil(labelY+12);
  let parts=[`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">`,`<rect width="100%" height="100%" fill="white"/>`,`<text x="${pad}" y="25" font-family="Arial" font-size="16" font-weight="bold" fill="#263649">${esc(title.slice(0,125))}</text>`];
  const x0=pad,y0=head;
  for(let i=0;i<L.cols.length;i++)for(let j=0;j<L.genes.length;j++){
@@ -368,10 +373,9 @@ function bpsFigureExport(format){
   const x=x0+L.positions[i]+cw/2,y=y0+top+L.genes.length*rh+7;
   parts.push(`<text transform="translate(${x} ${y}) rotate(90)" font-family="Arial" font-size="${Math.max(8,Math.round(8*zoomFactor))}" fill="#263649">${esc(label)}</text>`);
  }
- parts.push(`<text x="${pad}" y="${H-34}" font-family="Arial" font-size="12" fill="#263649">${esc(unit)}</text>`);
- const bar=Math.min(250,W-pad*2),by=H-23;
- for(let i=0;i<bar;i++)parts.push(`<rect x="${pad+i}" y="${by}" width="1" height="11" fill="${palette[Math.floor(i/Math.max(1,bar-1)*(palette.length-1))]}"/>`);
- parts.push(`<text x="${pad}" y="${by+25}" font-family="Arial" font-size="11">0</text>`,`<text x="${pad+bar+8}" y="${by+10}" font-family="Arial" font-size="11">${max.toFixed(3)}</text>`,'</svg>');
+ parts.push(`<text x="${pad}" y="${unitY}" font-family="Arial" font-size="12" fill="#263649">${esc(unit)}</text>`);
+ for(let i=0;i<bar;i++)parts.push(`<rect x="${pad+i}" y="${by}" width="1" height="${barH}" fill="${palette[Math.floor(i/Math.max(1,bar-1)*(palette.length-1))]}"/>`);
+ parts.push(`<text x="${pad}" y="${labelY}" font-family="Arial" font-size="11" fill="#263649">0</text>`,`<text x="${pad+bar}" y="${labelY}" text-anchor="end" font-family="Arial" font-size="11" fill="#263649">${maxLabel}</text>`,'</svg>');
  const svgBlob=new Blob([parts.join('')],{type:'image/svg+xml;charset=utf-8'});
  if(format==='svg'){save(svgBlob,'svg');return;}
  // Rasterize the vector figure directly at export resolution; never upscale the screen canvas.
