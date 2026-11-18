@@ -87,7 +87,7 @@
 <div><label for="bps-scale">Colour scale</label><select id="bps-scale" class="scale"><option value="fixed">Fixed across all cells (dataset maximum)</option><option value="dynamic">Fit current selection</option></select></div>
 <div class="colour-transform-control" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:8px 0"><label for="colour-transform-select">Expression scale</label><select id="colour-transform-select" aria-label="Expression scale"><option value="raw">Original pTPM (default)</option><option value="log">log₂(pTPM + 1)</option></select><span style="font-size:11px;color:#657080">Hover and CSV retain original values</span></div>
 
-<div class="ranking-controls wide" role="group" aria-label="Rank heatmap by mean expression"><strong>Rank by mean expression</strong><label><input type="checkbox" class="rank-genes"> Genes — highest global mean first</label><label><input type="checkbox" class="rank-cells"> Cell populations — highest global mean first (within each search group)</label><div class="help">Ranks use the entire dataset (all genes and cell populations), independent of current filters. Untick to restore the original order.</div></div>
+<div class="ranking-controls wide" role="group" aria-label="Rank heatmap by mean expression"><strong>Rank by mean expression</strong><label><input type="checkbox" class="rank-genes"> Genes — highest mean across all populations first</label><label><input type="checkbox" class="rank-cells"> Cell populations — highest mean of the selected genes first (within each search group)</label><div class="help">Genes are ranked by their mean across every population in the dataset. Populations are ranked by their mean over the selected genes; with one gene selected, by that gene alone. Untick to restore the original order.</div></div>
 <div class="actions wide"><button type="button" class="reset">Reset</button><button type="button" class="export">Export CSV</button><button type="button" class="export-png">Export PNG</button><button type="button" class="export-svg">Export SVG</button></div>
 </div>
 </aside><section class="bps-main" aria-label="Expression heatmap">
@@ -213,9 +213,9 @@ function render(){tip.hidden=true;
 $('.broad-count').textContent=broadSelected.size===0?'No categories selected':broadSelected.size===broadNames.length?'All cell categories selected':broadSelected.size+' categories selected';
  const {groups}=selection();
  let genes=geneNames.filter(g=>chosen.has(g));
- // Global rankings: scores always use all populations and all genes, independent of filters.
+ // Genes rank by their mean across all populations; populations rank by their mean over the selected genes.
  function meanForGene(g){return globalGeneScores.get(g)??-Infinity}
- function meanForCell(c){return globalCellScores.get(c)??-Infinity}
+ function meanForCell(c){let sum=0,n=0;for(const g of genes){const r=values.get(c+'\u0000'+g);if(r&&Number.isFinite(r.Expression)){sum+=r.Expression;n++}}return n?sum/n:-Infinity}
  if(rankGenes.checked){const scores=new Map(genes.map(g=>[g,meanForGene(g)]));genes.sort((a,b)=>scores.get(b)-scores.get(a)||geneNames.indexOf(a)-geneNames.indexOf(b))}
  const rankedGroups=groups.map(group=>({...group,cells:rankCells.checked?[...group.cells].sort((a,b)=>meanForCell(b)-meanForCell(a)||group.cells.indexOf(a)-group.cells.indexOf(b)):group.cells}));
  const allCols=rankedGroups.flatMap(g=>g.cells);
