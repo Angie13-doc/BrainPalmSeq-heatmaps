@@ -68,6 +68,9 @@ Genes are rows and populations are columns, coloured on the reversed Hawaii scal
 - **Colour scale:** *Fixed across all cells* uses the dataset maximum, which is best for comparing searches. *Fit current selection* uses the maximum across everything selected, on screen or not.
 - **Rank** genes and/or populations by mean expression across the whole dataset.
 - **Browse:** every matching population sits in one strip that scrolls sideways. When the strip is wider than the view, a *Whole selection* band above it summarises everything selected, with a frame for the visible part. Click or drag the band, use its ◀ Left / Right ▶ buttons, or Tab to it and use the arrow keys, Page Up/Down and Home/End. *Heatmap size* zooms.
+
+  **How the *Whole selection* band is drawn.** The band shows every selected column, squeezed to the width of the heatmap, with genes in the same order as the heatmap rows. When there are more columns than pixels across the band, several neighbouring columns share one pixel, and that pixel takes the **highest** of their values (for each gene). So a single strongly expressing column always shows up in the band, even next to low ones. A dark spot means at least one column there reaches that level, not that every column does; the heatmap below shows each column's own value. How much the band squeezes depends on the dataset and the screen. On a standard screen, Yao 2023 GABAergic (2,025 clusters) puts about 2 columns in each pixel and Glutamatergic (2,597) about 3; on a high-resolution (Retina) screen, about 1 and 1.4. When each column has its own pixel, the band shows exact values. Thin vertical lines in the band mark the starts of categories or comparison groups.
+
 - **Hover** (or tap) a tile for the gene, population, expression and the study's metadata.
 - **Export** the whole selection as CSV, SVG or PNG. PNG is drawn from the SVG; very wide selections may need SVG.
 
