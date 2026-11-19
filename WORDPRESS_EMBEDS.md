@@ -164,3 +164,8 @@ Upload all dataset folders directly to the **root** of `BrainPalmSeq-heatmaps` o
 <iframe src="https://angie13-doc.github.io/BrainPalmSeq-heatmaps/BrainPalmSeq2026_Zhang2014_Cortex/BrainPalmSeq2026_Zhang2014_Cortex.html" title="BrainPalmSeq2026_Zhang2014_Cortex expression heatmap" style="width:100%;height:850px;border:0;display:block" loading="lazy"></iframe>
 ```
 
+## BrainPalmSeq2026_Search_by_Gene
+
+```html
+<iframe src="https://angie13-doc.github.io/BrainPalmSeq-heatmaps/BrainPalmSeq2026_Search_by_Gene/" title="BrainPalmSeq Search by Gene" style="width:100%;height:1000px;border:0;display:block" loading="lazy"></iframe>
+```
