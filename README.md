@@ -105,6 +105,7 @@ The dataset pages were first generated outside this repository from each study's
 | `fix_export_scale_bar.py` | Laid out the SVG/PNG scale bar so it is never clipped. |
 | `fix_population_ranking.py` | Made population ranking use the selected genes instead of the mean of all 40. |
 | `add_colour_map_option.py` | Added the Hawaii / Turbo / Spectral colour map menu. |
+| `reorder_action_buttons.py` | Ordered the action buttons Export PNG · Export SVG · Export CSV, then Reset. |
 | `add_log_scale_option.py` | Added the original / log₂(value + 1) Expression scale option to the FPKM and pTPM datasets. |
 
 **To change the heatmap engine:** edit `tools/continuous_heatmap_engine.js` (and the markup or styles in `apply_continuous_heatmap.py` if needed), then run from the repository root:
