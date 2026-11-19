@@ -131,6 +131,7 @@ Most scripts are one-off migrations and refuse to run twice on the same page. Ch
 | File | Contents |
 |---|---|
 | `CITATION.cff` | Citation metadata for GitHub's "Cite this repository" button; points to the paper in [Citation](#citation). |
+| `LICENSE` | CC BY 4.0 legal code; see [Licence](#licence) for what it covers. |
 | `index.html` | Landing page (the site root) linking all 28 dataset heatmaps and Search by Gene. |
 | `WORDPRESS_EMBEDS.md` | Embed snippets for every dataset. |
 | `UPDATE_NOTES.txt` | Running list of site-wide changes. |
@@ -146,3 +147,12 @@ Wild AR, Hogg PW, Flibotte S, Nasseri GG, Hollman RB, Abazari D, Haas K, Bamji S
 For human cell types and cell lines, see the companion resource CellPalmSeq ([Angie13-doc/CellPalmSeq-heatmaps](https://github.com/Angie13-doc/CellPalmSeq-heatmaps)).
 
 Please also cite the original study for each dataset you use.
+
+## Licence
+
+The code, page design, documentation, and curated gene and population selections in this repository are licensed under the [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). The full legal code is in [`LICENSE`](LICENSE).
+
+The licence does not cover:
+
+- **Expression data.** The expression values come from the published studies listed in [Datasets](#datasets) and remain under each original source's terms.
+- **Colour maps.** Hawaii (Fabio Crameri's Scientific Colour Maps), Turbo (Google) and Spectral (ColorBrewer) remain under their own licences.
