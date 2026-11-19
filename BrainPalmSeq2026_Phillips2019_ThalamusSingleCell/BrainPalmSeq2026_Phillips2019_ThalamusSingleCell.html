@@ -88,7 +88,7 @@
 <div class="wide"><label for="bps-cmap">Colour map</label><select id="bps-cmap"><option value="hawaii">Hawaii</option><option value="turbo">Turbo (fine detail; not colour-blind safe)</option><option value="spectral">Spectral (BrainPalmSeq v1.0; not colour-blind safe)</option></select></div>
 
 <div class="ranking-controls wide" role="group" aria-label="Rank heatmap by mean expression"><strong>Rank by mean expression</strong><label><input type="checkbox" class="rank-genes"> Genes — highest mean across all populations first</label><label><input type="checkbox" class="rank-cells"> Cell populations — highest mean of the selected genes first (within each search group)</label><div class="help">Genes are ranked by their mean across every population in the dataset. Populations are ranked by their mean over the selected genes; with one gene selected, by that gene alone. Untick to restore the original order.</div></div>
-<div class="actions wide"><button type="button" class="export-png">Export PNG</button><button type="button" class="export-svg">Export SVG</button><button type="button" class="export">Export CSV</button><button type="button" class="reset">Reset</button></div>
+<div class="actions wide"><button type="button" class="export-png">Export PNG</button><button type="button" class="export-svg">Export SVG</button><button type="button" class="export">Export CSV</button><label style="font-size:11px;font-weight:400;display:flex;align-items:center;gap:4px;flex-basis:100%;margin:0"><input type="checkbox" class="figure-transparent"> Transparent background</label><button type="button" class="reset">Reset</button></div>
 </div>
 </aside><section class="bps-main" aria-label="Expression heatmap">
 <div class="summary" role="status" aria-live="polite"></div><div class="help">Expression units: Mean log₂(counts per 10,000 + 1). Dataset: BrainPalmSeq2026_Phillips2019_ThalamusSingleCell.</div><div class="bps-zoom" aria-label="Heatmap magnification"><strong>Heatmap size</strong><button type="button" class="zoom-out" aria-label="Zoom out">−</button><input class="zoom-range" type="range" min="75" max="250" step="25" value="100" aria-label="Heatmap magnification"><button type="button" class="zoom-in" aria-label="Zoom in">+</button><span class="zoom-value" aria-live="polite">100%</span><button type="button" class="zoom-reset">Reset size</button></div><div class="bps-overview" hidden><div class="bps-ov-head"><span><strong>Whole selection</strong> · click, drag or use the arrow keys to jump</span><span class="bps-ov-nav"><button type="button" class="bps-ov-left" aria-label="Scroll heatmap left">◀ Left</button><span class="bps-ov-range"></span><button type="button" class="bps-ov-right" aria-label="Scroll heatmap right">Right ▶</button></span></div><div class="bps-ov-note">An overview of every selected column, squeezed to the width of your screen. Where several columns share one screen pixel, the highest of their values is shown.</div><canvas class="bps-ov" role="slider" tabindex="0" aria-label="Heatmap position. Arrow keys, Page Up, Page Down, Home and End move through the columns; click or drag to jump"></canvas></div><div class="plot-scroll"><canvas class="canvas" role="img" aria-label="Expression heatmap for selected genes and cell populations" tabindex="0"></canvas><div class="bps-spacer"></div><div class="empty" hidden>No matching cell populations or genes. Try a broader search or select more genes.</div></div>
@@ -371,7 +371,7 @@ function bpsPngNote(scale,cssWidth){let note=root.querySelector('.export-note');
 function bpsFigureExport(format){
  if(!layout)return;
  const L=layout, unit=($('.legend span')?.textContent||'Expression').trim();
- const title=document.title.replace(/\s+/g,' ').trim();
+ const title='BrainPalmSeq: '+(location.pathname.split('/').filter(Boolean).pop()||'').replace(/\.html$/,'').replace(/^BrainPalmSeq2026_/,'');
  const pad=24,head=44;
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
  const max=Number($('.high').textContent)||0;
@@ -380,10 +380,10 @@ function bpsFigureExport(format){
  const save=(blob,ext)=>{const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=base+'_heatmap.'+ext;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500)};
  // Legend below the heatmap: units line, colour bar, then "0" and the maximum on one line under the bar.
  const measureText=(s,font)=>{const c=document.createElement('canvas').getContext('2d');c.font=font;return c.measureText(String(s)).width};
- const maxLabel=max.toFixed(3),bar=Math.min(250,Math.max(160,L.width-left));
+ const maxLabel=max.toFixed(3),bar=Math.min(220,Math.max(160,L.width-left-right)),lx=pad+left;
  const legendW=Math.max(measureText(unit,'12px Arial'),bar,measureText('0','11px Arial')+measureText(maxLabel,'11px Arial')+16);
- const W=Math.ceil(Math.max(L.width,legendW)+pad*2),unitY=head+L.height+16,by=unitY+8,barH=11,labelY=by+barH+13,H=Math.ceil(labelY+12);
- let parts=[`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">`,`<rect width="100%" height="100%" fill="white"/>`,`<text x="${pad}" y="25" font-family="Arial" font-size="16" font-weight="bold" fill="#263649">${esc(title.slice(0,125))}</text>`];
+ const W=Math.ceil(Math.max(pad+L.width,lx+legendW+right,pad+measureText(title,'bold 16px Arial'))+pad),unitY=head+L.height+16,by=unitY+8,barH=12,labelY=by+barH+13,H=Math.ceil(labelY+12);
+ let parts=[`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">`,...($('.figure-transparent')?.checked?[]:[`<rect width="100%" height="100%" fill="white"/>`]),`<text x="${pad}" y="25" font-family="Arial" font-size="16" font-weight="bold" fill="#263649">${esc(title.slice(0,125))}</text>`];
  const x0=pad,y0=head;
  for(let i=0;i<L.cols.length;i++)for(let j=0;j<L.genes.length;j++){
   const r=values.get(L.cols[i]+'\u0000'+L.genes[j]);if(!r)continue;
@@ -396,9 +396,12 @@ function bpsFigureExport(format){
   const x=x0+L.positions[i]+cw/2,y=y0+top+L.genes.length*rh+7;
   parts.push(`<text transform="translate(${x} ${y}) rotate(90)" font-family="Arial" font-size="${Math.max(8,Math.round(8*zoomFactor))}" fill="#263649">${esc(label)}</text>`);
  }
- parts.push(`<text x="${pad}" y="${unitY}" font-family="Arial" font-size="12" fill="#263649">${esc(unit)}</text>`);
- for(let i=0;i<bar;i++)parts.push(`<rect x="${pad+i}" y="${by}" width="1" height="${barH}" fill="${palette[Math.floor(i/Math.max(1,bar-1)*(palette.length-1))]}"/>`);
- parts.push(`<text x="${pad}" y="${labelY}" font-family="Arial" font-size="11" fill="#263649">0</text>`,`<text x="${pad+bar}" y="${labelY}" text-anchor="end" font-family="Arial" font-size="11" fill="#263649">${maxLabel}</text>`,'</svg>');
+ // Separate comparison groups at their visual gaps.
+ for(let i=1;i<L.cols.length;i++)if(L.positions[i]-L.positions[i-1]>cw+2){const x=x0+(L.positions[i-1]+cw+L.positions[i])/2;parts.push(`<line x1="${x}" y1="${y0+top-4}" x2="${x}" y2="${y0+top+L.genes.length*rh+2}" stroke="#8b9db0" stroke-width="1.5"/>`)}
+ parts.push(`<text x="${lx}" y="${unitY}" font-family="Arial" font-size="12" fill="#263649">${esc(unit)}</text>`);
+ const stops=palette.map((c,i)=>`<stop offset="${(100*i/Math.max(1,palette.length-1)).toFixed(3)}%" stop-color="${esc(c)}"/>`).join('');
+ parts.push(`<defs><linearGradient id="bps-legend-gradient" x1="0" y1="0" x2="1" y2="0">${stops}</linearGradient></defs>`,`<rect x="${lx}" y="${by}" width="${bar}" height="${barH}" fill="url(#bps-legend-gradient)"/>`);
+ parts.push(`<text x="${lx}" y="${labelY}" font-family="Arial" font-size="11" fill="#263649">0</text>`,`<text x="${lx+bar}" y="${labelY}" text-anchor="end" font-family="Arial" font-size="11" fill="#263649">${maxLabel}</text>`,'</svg>');
  const svgBlob=new Blob([parts.join('')],{type:'image/svg+xml;charset=utf-8'});
  if(format==='svg'){save(svgBlob,'svg');return;}
  // Rasterize the vector figure directly at export resolution; never upscale the screen canvas.
