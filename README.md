@@ -14,7 +14,7 @@ This repository holds the 2026 heatmap release: one interactive heatmap per data
 
 Each heatmap lives at
 `https://angie13-doc.github.io/BrainPalmSeq-heatmaps/<folder>/<folder>.html`,
-for example [Chen 2017 hypothalamus](https://angie13-doc.github.io/BrainPalmSeq-heatmaps/BrainPalmSeq2026_Chen2017_Hypothalamus/BrainPalmSeq2026_Chen2017_Hypothalamus.html). The Search by Gene page is at [`BrainPalmSeq_Search_by_Gene/`](https://angie13-doc.github.io/BrainPalmSeq-heatmaps/BrainPalmSeq_Search_by_Gene/).
+for example [Chen 2017 hypothalamus](https://angie13-doc.github.io/BrainPalmSeq-heatmaps/BrainPalmSeq2026_Chen2017_Hypothalamus/BrainPalmSeq2026_Chen2017_Hypothalamus.html). The Search by Gene page is at [`BrainPalmSeq2026_Search_by_Gene/`](https://angie13-doc.github.io/BrainPalmSeq-heatmaps/BrainPalmSeq2026_Search_by_Gene/); the old address, `BrainPalmSeq_Search_by_Gene/`, forwards there.
 
 `WORDPRESS_EMBEDS.md` has a ready-to-paste `<iframe>` for every dataset, and each dataset folder has the same snippet as `<folder>_iframe.html`. The iframes load the live page from GitHub Pages, so a change merged into `main` reaches the WordPress pages without editing them. GitHub Pages lets browsers keep a page for up to 10 minutes, so an update can take that long to appear; a hard refresh (Cmd/Ctrl+Shift+R) on the page itself shows it at once.
 
@@ -134,8 +134,8 @@ Most scripts are one-off migrations and refuse to run twice on the same page. Ch
 | `UPDATE_NOTES.txt` | Running list of site-wide changes. |
 | `VALIDATION_REPORT.csv`, `VALIDATION_ISSUES.txt` | Per-dataset counts and omissions from the original release checks. |
 | `HOVER_METADATA_AUDIT.csv`, `README_HOVER_METADATA_UPDATE.md` | Where each dataset's hover metadata comes from. |
-| `BrainPalmSeq_Search_by_Gene/` | Search by Gene page (`index.html`), its embed snippet, and `data/` (every record it shows, plus the BICCN source matrix). See its README. |
-| `BrainPalmSeq2026_Search_by_Gene/` | An identical copy of the Search by Gene page. |
+| `BrainPalmSeq2026_Search_by_Gene/` | The Search by Gene page (`index.html`), its embed snippet, its README, and `data/` (every record it held at release, plus the BICCN source matrix). |
+| `BrainPalmSeq_Search_by_Gene/` | Old address of Search by Gene; its `index.html` forwards to `BrainPalmSeq2026_Search_by_Gene/`. |
 
 ## Citation
 
