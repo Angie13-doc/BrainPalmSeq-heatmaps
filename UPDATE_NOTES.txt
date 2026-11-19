@@ -14,3 +14,4 @@ SVG/PNG export scale bar: units line, colour bar, then "0" and the maximum on on
 Expression scale option (original values or log₂(value + 1); colours only, hover shows both, CSV and ranking keep originals) on Zhang 2014 (FPKM), HippoSeq (FPKM) and Sjöstedt 2020 (pTPM). Re-apply with tools/add_log_scale_option.py.
 Population ranking uses the selected genes: populations rank by their mean over the ticked genes (one gene: that gene alone), not the mean of all 40. Gene ranking unchanged. Re-apply with tools/fix_population_ranking.py.
 Colour map menu: Hawaii (default), Turbo (fine detail; not colour-blind safe) or Spectral (BrainPalmSeq v1.0; not colour-blind safe). Re-apply with tools/add_colour_map_option.py.
+PNG export at 300 DPI: drawn at 3.125× the figure and tagged 300 DPI; selections wider than 16,000 px are saved smaller (still 300 DPI) with a note suggesting SVG. Same rule as CellPalmSeq. Re-apply with tools/png_300dpi.py.

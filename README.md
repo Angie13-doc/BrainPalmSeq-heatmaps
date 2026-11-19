@@ -74,7 +74,7 @@ Genes are rows and populations are columns, coloured by default on the reversed 
   **How the *Whole selection* band is drawn.** The band shows every selected column, squeezed to the width of the heatmap on your screen, with genes in the same order as the heatmap rows. When there are more columns than screen pixels across the band, several neighbouring columns share one screen pixel, and that pixel takes the **highest** of their values (for each gene). So a single strongly expressing column always shows up in the band, even next to low ones. A dark spot means at least one column there reaches that level, not that every column does; the heatmap below shows each column's own value. How much the band squeezes depends on the number of columns and on your screen: its width, and how many pixels it packs into that width. On a standard screen, Yao 2023 GABAergic (2,025 clusters) puts about 2 columns in each pixel and Glutamatergic (2,597) about 3; on a high-resolution (Retina) screen, about 1 and 1.4. When each column has its own screen pixel, the band shows exact values. Thin vertical lines in the band mark the starts of categories or comparison groups.
 
 - **Hover** (or tap) a tile for the gene, population, expression and the study's metadata.
-- **Export** the whole selection as CSV, SVG or PNG. PNG is drawn from the SVG; very wide selections may need SVG.
+- **Export** the whole selection as PNG, SVG or CSV. PNG is drawn from the SVG. PNGs are 300 DPI: drawn at 3.125× the on-screen figure (300 DPI at its natural size, where 96 px = 1 inch) and tagged 300 DPI, so they open at the right print size. A selection too wide for that (over 16,000 px on a side) is saved smaller, still at 300 DPI, with a note suggesting SVG; one too wide even for that asks for SVG.
 
 Search by Gene shows one gene across datasets as ranked bar charts, with CSV and PNG downloads per dataset.
 
@@ -106,6 +106,7 @@ The dataset pages were first generated outside this repository from each study's
 | `fix_population_ranking.py` | Made population ranking use the selected genes instead of the mean of all 40. |
 | `add_colour_map_option.py` | Added the Hawaii / Turbo / Spectral colour map menu. |
 | `reorder_action_buttons.py` | Ordered the action buttons Export PNG · Export SVG · Export CSV, then Reset. |
+| `png_300dpi.py` | PNG export at 300 DPI (drawn at 3.125×, DPI recorded in the file), with the same size limits on both sites. |
 | `add_log_scale_option.py` | Added the original / log₂(value + 1) Expression scale option to the FPKM and pTPM datasets. |
 
 **To change the heatmap engine:** edit `tools/continuous_heatmap_engine.js` (and the markup or styles in `apply_continuous_heatmap.py` if needed), then run from the repository root:

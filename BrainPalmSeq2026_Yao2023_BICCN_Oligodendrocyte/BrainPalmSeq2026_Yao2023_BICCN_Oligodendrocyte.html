@@ -353,6 +353,21 @@ $('.reset').addEventListener('click',()=>{zoomFactor=1;cw=12;rh=14;zoomRange.val
 $('.export').addEventListener('click',()=>{if(!current.length)return;const keys=['Gene','ClusterName','Region','Class','Region2','Probable_location','Neurotransmitter','MarkerGenes','Description','Expression'],esc=v=>'"'+String(v??'').replace(/"/g,'""')+'"';const csv=[keys.join(','),...current.map(r=>keys.map(k=>esc(r[k])).join(','))].join('\r\n');const blob=new Blob([csv],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download='BrainPalmSeq2026_Yao2023_BICCN_Oligodendrocyte_selection.csv';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000)});
 
 // Publication figure export: SVG uses vector rectangles and editable text.
+// PNG export at 300 DPI: draw at 300/96 of the figure's on-screen size (96 px = 1 inch) and
+// record 300 DPI in the file. Wider figures are scaled to fit browser limits and print smaller.
+const BPS_PNG_DPI=300,BPS_PNG_MAX_SIDE=16000,BPS_PNG_MAX_PIXELS=60e6;
+function bpsPngScale(w,h){return Math.min(BPS_PNG_DPI/96,BPS_PNG_MAX_SIDE/w,BPS_PNG_MAX_SIDE/h,Math.sqrt(BPS_PNG_MAX_PIXELS/(w*h)))}
+function bpsCrc32(bytes){let crc=0xffffffff;for(let n=0;n<bytes.length;n++){let c=(crc^bytes[n])&0xff;for(let k=0;k<8;k++)c=c&1?0xedb88320^(c>>>1):c>>>1;crc=(crc>>>8)^c}return (crc^0xffffffff)>>>0}
+async function bpsPngWithDpi(blob,dpi){
+ const src=new Uint8Array(await blob.arrayBuffer()),ppm=Math.round(dpi/0.0254),phys=new Uint8Array(21),dv=new DataView(phys.buffer);
+ dv.setUint32(0,9);phys.set([0x70,0x48,0x59,0x73],4);dv.setUint32(8,ppm);dv.setUint32(12,ppm);phys[16]=1;dv.setUint32(17,bpsCrc32(phys.subarray(4,17)));
+ const parts=[src.subarray(0,8)];let i=8;const sv=new DataView(src.buffer,src.byteOffset,src.byteLength);
+ while(i<src.length){const len=sv.getUint32(i),type=String.fromCharCode(...src.subarray(i+4,i+8)),end=i+12+len;
+  if(type!=='pHYs')parts.push(src.subarray(i,end));if(type==='IHDR')parts.push(phys);i=end}
+ return new Blob(parts,{type:'image/png'})}
+function bpsPngNote(scale,cssWidth){let note=root.querySelector('.export-note');
+ if(!note){note=document.createElement('div');note.className='help export-note';note.setAttribute('role','status');$('.actions').after(note)}
+ note.textContent=scale<BPS_PNG_DPI/96-1e-6?'PNG saved at 300 DPI, '+(cssWidth*scale/BPS_PNG_DPI).toFixed(1)+' in wide: this selection is too wide for full size. Use Export SVG for full detail.':''}
 function bpsFigureExport(format){
  if(!layout)return;
  const L=layout, unit=($('.legend span')?.textContent||'Expression').trim();
@@ -391,12 +406,12 @@ function bpsFigureExport(format){
  img.onload=()=>{
    URL.revokeObjectURL(svgUrl);
    // 4x resolution, capped to avoid exceeding browser canvas limits on wide atlases.
-   const factor=Math.min(4,16000/Math.max(W,H));
+   const factor=bpsPngScale(W,H);
    if(factor<1){alert('This heatmap is too large for a reliable PNG. Please use Export SVG for full resolution.');return;}
    const out=document.createElement('canvas');out.width=Math.round(W*factor);out.height=Math.round(H*factor);
    const ctx=out.getContext('2d');if(!ctx){alert('Unable to create PNG canvas. Please use Export SVG.');return;}
    ctx.setTransform(factor,0,0,factor,0,0);ctx.drawImage(img,0,0,W,H);
-   out.toBlob(blob=>{if(blob)save(blob,'png');else alert('PNG export failed. Try SVG instead.');},'image/png');
+   out.toBlob(async blob=>{if(blob){save(await bpsPngWithDpi(blob,BPS_PNG_DPI),'png');bpsPngNote(factor,W)}else alert('PNG export failed. Try SVG instead.');},'image/png');
  };
  img.onerror=()=>{URL.revokeObjectURL(svgUrl);alert('PNG rendering failed. Please use Export SVG.');};
  img.src=svgUrl;
