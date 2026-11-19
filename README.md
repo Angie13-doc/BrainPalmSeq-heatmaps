@@ -131,6 +131,7 @@ Most scripts are one-off migrations and refuse to run twice on the same page. Ch
 | File | Contents |
 |---|---|
 | `CITATION.cff` | Citation metadata for GitHub's "Cite this repository" button; points to the paper in [Citation](#citation). |
+| `index.html` | Landing page (the site root) linking all 28 dataset heatmaps and Search by Gene. |
 | `WORDPRESS_EMBEDS.md` | Embed snippets for every dataset. |
 | `UPDATE_NOTES.txt` | Running list of site-wide changes. |
 | `VALIDATION_REPORT.csv`, `VALIDATION_ISSUES.txt` | Per-dataset counts and omissions from the original release checks. |
