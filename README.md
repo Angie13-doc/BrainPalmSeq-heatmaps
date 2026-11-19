@@ -8,7 +8,7 @@ S-palmitoylation is a reversible lipid modification that controls where proteins
 
 This repository holds the 2026 heatmap release: one interactive heatmap per dataset, plus a Search by Gene page that compares one gene across datasets.
 
-**Genes shown (40),** in this order on every heatmap: the de-S-acylating enzymes (the ABHD-family hydrolases *Abhd4*, *Abhd6*, *Abhd10*, *Abhd11*, *Abhd12*, *Abhd13*, *Abhd16a* and *Abhd17a*–*c*, then *Lypla1*, *Lypla2* and *Ppt1*), the accessory proteins *Selenok*, *Golga7* and *Golga7b*, and the ZDHHC S-acylating enzymes (*Zdhhc1*–*9* and *11*–*25* in mouse; *ZDHHC1*–*9*, *11*, *11B* and *12*–*24* in human). Gene symbols keep the source dataset's spelling: mouse datasets use *Zdhhc1*, the human dataset (Siletti 2023) uses *ZDHHC1*, and Cembrowski 2016, Li 2019 and Zhang 2014 use *Selk*, the former symbol for *Selenok*.
+**Genes shown (40),** in this order on every heatmap: the de-S-acylating enzymes (the ABHD-family hydrolases *Abhd4*, *Abhd6*, *Abhd10*, *Abhd11*, *Abhd12*, *Abhd13*, *Abhd16a* and *Abhd17a*–*c*, then *Lypla1*, *Lypla2* and *Ppt1*), the accessory proteins *Selenok*, *Golga7* and *Golga7b*, and the ZDHHC S-acylating enzymes (*Zdhhc1*–*9* and *11*–*25* in mouse; *ZDHHC1*–*9*, *11*, *11B* and *12*–*24* in human). Gene symbols keep the source dataset's spelling: mouse datasets use *Zdhhc1*, the human dataset (Siletti 2023) uses *ZDHHC1*.
 
 ## Live pages
 
@@ -109,6 +109,7 @@ The dataset pages were first generated outside this repository from each study's
 | `png_300dpi.py` | PNG export at 300 DPI (drawn at 3.125×, DPI recorded in the file), with the same size limits on both sites. |
 | `add_log_scale_option.py` | Added the original / log₂(value + 1) Expression scale option to the FPKM and pTPM datasets. |
 | `gene_order.py` | Ordered genes by function (de-S-acylating, accessory, ZDHHC) instead of alphabetically, and corrected *Lylpa2* to *Lypla2* in the Protein Atlas data and Search by Gene. |
+| `rename_selk.py` | Renamed *Selk* (former symbol) to *Selenok* in Cembrowski 2016, Li 2019 and Zhang 2014. |
 
 **To change the heatmap engine:** edit `tools/continuous_heatmap_engine.js` (and the markup or styles in `apply_continuous_heatmap.py` if needed), then run from the repository root:
 
