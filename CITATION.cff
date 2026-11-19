@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use these heatmaps, please cite the BrainPalmSeq paper below, and the original study for each dataset you use."
+title: "BrainPalmSeq heatmaps"
+type: software
+url: "https://angie13-doc.github.io/BrainPalmSeq-heatmaps/"
+repository-code: "https://github.com/Angie13-doc/BrainPalmSeq-heatmaps"
+authors:
+  - family-names: "Wild"
+    given-names: "Angela R"
+  - family-names: "Hogg"
+    given-names: "Peter W"
+  - family-names: "Flibotte"
+    given-names: "Stephane"
+  - family-names: "Nasseri"
+    given-names: "Glory G"
+  - family-names: "Hollman"
+    given-names: "Rocio B"
+  - family-names: "Abazari"
+    given-names: "Danya"
+  - family-names: "Haas"
+    given-names: "Kurt"
+  - family-names: "Bamji"
+    given-names: "Shernaz X"
+preferred-citation:
+  type: article
+  title: "Exploring the expression patterns of palmitoylating and de-palmitoylating enzymes in the mouse brain using the curated RNA-seq database BrainPalmSeq"
+  authors:
+    - family-names: "Wild"
+      given-names: "Angela R"
+    - family-names: "Hogg"
+      given-names: "Peter W"
+    - family-names: "Flibotte"
+      given-names: "Stephane"
+    - family-names: "Nasseri"
+      given-names: "Glory G"
+    - family-names: "Hollman"
+      given-names: "Rocio B"
+    - family-names: "Abazari"
+      given-names: "Danya"
+    - family-names: "Haas"
+      given-names: "Kurt"
+    - family-names: "Bamji"
+      given-names: "Shernaz X"
+  journal: "eLife"
+  volume: 11
+  start: "e75804"
+  year: 2022
+  month: 7
+  doi: "10.7554/eLife.75804"
+  pmcid: "PMC9365392"
+  url: "https://doi.org/10.7554/eLife.75804"
