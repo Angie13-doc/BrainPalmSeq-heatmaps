@@ -110,6 +110,9 @@ The dataset pages were first generated outside this repository from each study's
 | `add_log_scale_option.py` | Added the original / log₂(value + 1) Expression scale option to the FPKM and pTPM datasets. |
 | `gene_order.py` | Ordered genes by function (de-S-acylating, accessory, ZDHHC) instead of alphabetically, and corrected *Lylpa2* to *Lypla2* in the Protein Atlas data and Search by Gene. |
 | `rename_selk.py` | Renamed *Selk* (former symbol) to *Selenok* in Cembrowski 2016, Li 2019 and Zhang 2014. |
+| `name_category_box.py` | Named the category box after what it holds, with one name per kind on both sites (Cell categories, Regions, Primary disease, Tissues, Samples); Zeisel 2015 boxes group by cell type. |
+| `fix_zeisel2015_cell_types.py` | Corrected three swapped Zeisel 2015 CA1 cell-type labels (Oligo6, Peric, Pvm1); grouped microglia and perivascular macrophages as Microglia/macrophages; CA1 "Interneuron" → "Interneurons". |
+| `search_wording.py` | One wording for the population search on every page: "Populations to compare", "+ Add another search". |
 
 **To change the heatmap engine:** edit `tools/continuous_heatmap_engine.js` (and the markup or styles in `apply_continuous_heatmap.py` if needed), then run from the repository root:
 
