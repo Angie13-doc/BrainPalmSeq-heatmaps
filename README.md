@@ -130,6 +130,7 @@ Most scripts are one-off migrations and refuse to run twice on the same page. Ch
 
 | File | Contents |
 |---|---|
+| `CITATION.cff` | Citation metadata for GitHub's "Cite this repository" button; points to the paper in [Citation](#citation). |
 | `WORDPRESS_EMBEDS.md` | Embed snippets for every dataset. |
 | `UPDATE_NOTES.txt` | Running list of site-wide changes. |
 | `VALIDATION_REPORT.csv`, `VALIDATION_ISSUES.txt` | Per-dataset counts and omissions from the original release checks. |
